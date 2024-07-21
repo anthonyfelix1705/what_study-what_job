@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What study what job</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    {% load static%}
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    
+</head>
+<style>
+  .body{
+    font-family: "Trirong", serif;
+  }
+    .one{
+        
+        top: 0px;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        background-color: darkslategray;
+        color: white;
+        position: fixed;
+        width: 1360px;
+        table-layout: fixed;
+    }
+
+    .f {
+      margin-left: 1240px;
+    }
+
+    .f{
+        display: block;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+        font-size: large;
+}
+
+.one a:hover {
+  
+  color: white;
+  
+}
+.t{
+  margin-left: 10px;
+}
+.second{
+  height: 100%;
+  width: 270px;
+  position: fixed;
+  z-index: 1;
+  top: 60px;
+  padding-top: 70px;
+  left: 0;
+  background-color: gainsboro;
+  overflow-x: hidden
+
+}
+body{
+  font-family: "Lato", sans-serif;
+}
+.second a{
+  padding: 20px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+  table-layout: fixed;
+   display: inline-flex;
+
+}
+.second button{
+ 
+ border-bottom-right-radius: 20px;
+}
+.second a:hover{
+  color:grey;
+}
+.study{
+  text-align: right;
+}
+.study{
+  margin: left;/* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+.center{
+  margin-left: 300px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  margin-top: 120px;
+  letter-spacing: 7px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.head{
+  margin-left: 280px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-top: 55px;
+  font-size: large;
+  background-color: beige;
+ 
+}
+
+
+#flow a {
+  position: absolute;
+  margin-left:260px;
+  left: -117px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 160px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  position: fixed;
+ 
+}
+#flow a:hover {
+  left: 0;
+}
+#physics{
+top: 200px;
+background-color: darkslategray;
+}
+#chemistry{
+top: 280px;
+background-color: darkslategray;
+
+}
+#Biology{
+top: 360px;
+background-color:  darkslategray;
+
+}
+#Mathematics{
+top: 440px;
+background-color:  darkslategray;
+
+}
+#Computer{
+top: 520px;
+background-color: darkslategray;
+
+}
+.h{
+  margin: 1px;
+  width: 800px;
+  height: 230px;
+  margin-top: 60px;
+  padding: 20px;
+  margin-left:430px;
+  background-color: lightgrey;
+  border-radius: 20px;
+}
+#top{
+  color: darkslategray;
+}
+.toptwo{
+letter-spacing: 1px;
+padding: 1px;
+
+}
+.topthree{
+  margin-left: 320px;
+  padding: 5px;
+  letter-spacing: 1px;
+  line-height: 40px;
+}
+.class{
+  line-height: 27px;
+}
+.button{
+  width: 150px;
+  background-color: darkslategray ;
+  color:white;
+  padding: 0px;
+  text-align: center;
+  margin-left: 800px;
+  font-size: 20px;
+  border-radius: 8px;
+  height: auto;
+  border: none;
+  display: inline-block;
+
+}
+.top{
+  margin-left: 0px;
+  margin-top: 5px;
+}
+
+</style>
+</head>
+<body >
+  
+<!--top style-->
+    <ul class="one">
+      <li class="f"><a href="home">Home</a></li>
+    </ul>
+<!-- side-->
+    <ul class="second">
+      <a href="Science">Science </a><hr>
+      <a href="Commerce">Commerce </a><hr>
+      <a href="arts">Humanities/Arts </a><hr>
+      <a href="Professional">Professional </a>
+    </ul>
+  <div class="top">
+      <h1 id="top"></h1>
+      <h1><a href ="#bottom"></a></h1> 
+  </div>
+  <div class="center">
+      <h1><i class="fa-light fa-telescope"></i>DEPARTMENT OF SCIENCE</h1><hr>
+  </div>
+  <div id="flow">
+      <a href="physics" id="physics">physics</a>
+      <a href="chemistry" id="chemistry">chemistry</a>
+      <a href="Biology" id="Biology">Biology</a>
+      <a href="Mathematics" id="Mathematics">Mathematics</a>
+      <a href="Computer" id="Computer">Computer</a>
+  </div>
+  <div class="h">
+      <h1 id="top">Various Department of Science section</h1>
+  <div class="toptwo">
+      <h3>Navigating a future within a science department can be both exciting and challenging.
+          Here's a step-by-step guide to help you chart your path as a student in a science department:</h3>
+  </div>
+  </div>
+  <div class="topthree">
+       <h2><strong>1.Identify Your Interests:</strong></h2><h3 class="class">the various disciplines within the science department to find what truly interests you. Whether it's biology, chemistry, physics, psychology, or another field, discovering your passion will provide direction for your academic and career pursuits.</h3>
+        <h2><strong>2.Goals:</strong></h2><h3 class="class">Determine your short-term and long-term goals. Do you aspire to pursue graduate studies, conduct research, work in industry, or pursue a career in academia? Setting clear goals will help you stay focused and motivated throughout your academic journey.</h3>
+          <h2><strong>3.Academic Excellence:</strong></h2><h4 class="class">Strive for academic excellence by attending classes regularly, actively participating in discussions, completing assignments on time, and seeking help when needed. Building a strong academic foundation is essential for success in science-related fields.</h3>
+            <h2><strong>4.Engage in Research:</strong></h2><h3 class="class">Get involved in research opportunities early in your academic career. Reach out to faculty members or research labs within the department to inquire about research assistant positions, volunteer opportunities, or independent study projects. Research experience will enhance your understanding of scientific concepts and methodologies and bolster your credentials for future endeavors.</h3>
+              <h2><strong>5.Seek Mentorship:</strong></h2><h3 class="class">Cultivate relationships with faculty members, advisors, and mentors who can provide guidance and support throughout your academic journey. They can offer valuable insights, advice, and networking opportunities that can help you navigate challenges and make informed decisions about your future.</h3>
+                <h2><strong>6.Gain Practical Experience:</strong></h2><h3 class="class">Supplement your academic coursework with practical experience through internships, co-op programs, or summer research opportunities. These experiences will allow you to apply classroom knowledge in real-world settings, develop valuable skills, and explore potential career paths.</h3>
+                  <h2><strong>7.Stay Updated:</strong></h2><h3 class="class">Keep abreast of the latest advancements, trends, and developments in your field of interest by attending seminars, workshops, conferences, and scientific meetings. Staying updated will broaden your knowledge base, inspire new ideas, and foster a deeper appreciation for the scientific endeavor.</h3>
+                    <h2><strong>8.Network:</strong></h2><h3 class="class">Build a professional network by connecting with peers, alumni, professionals, and researchers in your field. Join student organizations, participate in networking events, and utilize online platforms like LinkedIn to expand your network and explore career opportunities.</h3>
+                      <h2><strong>9.Consider Further Education:</strong></h2><h3 class="class">Evaluate whether further education, such as graduate studies or professional programs, aligns with your career aspirations. Research potential graduate programs, identify faculty whose research interests align with yours, and prepare for standardized tests if required.</h3>
+                        <h2><strong>10.Adapt and Evolve:</strong></h2><h3 class="class">Be open to new opportunities, experiences, and challenges that may arise along your academic and career journey. Embrace lifelong learning, adapt to changes in your field, and remain resilient in the face of setbacks or obstacles.</h3>
+  <div class="button">
+        <a href="#top">Go to top</a>
+        <div id="bottom"></div>
+  </div>
+  </div>
+
+</body>
+</html>
+ 

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What study what job</title>
+    {% load static%}
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    
+</head>
+<style>
+  .body{
+    font-family: "Trirong", serif;
+  }
+    .one{
+        
+        top: 0px;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        background-color: darkslategray;
+        color: white;
+        position: fixed;
+        width: 1360px;
+        table-layout: fixed;
+    }
+
+    .f {
+      margin-left: 1240px;
+    }
+
+    .f{
+      
+        display: block;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+        font-size: large;
+        
+}
+
+.one a:hover {
+  
+  color: white;
+  
+}
+.t{
+  margin-left: 10px;
+}
+.second{
+  height: 100%;
+  width: 270px;
+  position: fixed;
+  z-index: 1;
+  top: 60px;
+  padding-top: 70px;
+  left: 0;
+  background-color: gainsboro;
+  overflow-x: hidden
+
+}
+body{
+  font-family: "Lato", sans-serif;
+}
+.second a{
+  padding: 20px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+  table-layout: fixed;
+   display: inline-flex;
+
+}
+.second button{
+ 
+ border-bottom-right-radius: 20px;
+}
+.second a:hover{
+  color:grey;
+}
+.study{
+  text-align: right;
+}
+.study{
+  margin: left;/* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+.center{
+  margin-left: 300px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  margin-top: 120px;
+  letter-spacing: 7px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.head{
+  margin-left: 280px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-top: 55px;
+  font-size: large;
+  background-color: beige;
+ 
+}
+#flow a {
+  position: absolute;
+  margin-left:260px;
+  left: -117px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 160px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  position: fixed;
+ 
+}
+#flow a:hover {
+  left: 0;
+}
+#Geography{
+top: 177px;
+background-color:  darkslategray;
+}
+#Language{
+top: 240px;
+background-color: darkslategray;
+}
+#History{
+top: 304px;
+background-color:  darkslategray}
+#Psychology{
+top: 367px;
+background-color:  darkslategray;
+
+}
+#Sociology{
+top: 430px;
+background-color:  darkslategray;
+
+}
+#Literature{
+top: 494px;
+background-color:  darkslategray;
+
+}
+#Political{
+top: 558px;
+background-color: darkslategray;
+
+}
+
+.h{
+  margin-top: 40px;
+  margin-left: 305px;
+  
+}
+.fir{
+  
+  margin-left: 330px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-top: 35px;
+  font-size: large;
+  text-align: initial;
+  line-height: 35px;
+}
+.gray{
+  color: #201e1e;
+}
+.fi{
+  margin-left: 330px;
+  margin-top: 75px;
+}
+.firs{
+   margin-left: 330px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  line-height: 100px;
+  margin-top: 35px;
+  font-size: large;
+  text-align: initial; 
+  
+  }  
+
+ 
+  .button{
+  width: 150px;
+  background-color: darkslategray ;
+  color:white;
+  padding: 0px;
+  text-align: center;
+  margin-left: 1100px;
+  font-size: 20px;
+  border-radius: 8px;
+  height: auto;
+  border: none;
+  display: inline-block;
+
+}
+.top{
+  margin-left: 0px;
+  margin-top: 5px;
+}
+</style>
+</head>
+<body >
+  
+  <!--top style-->
+    <ul class="one">
+      
+        <li class="f"><a href='home'>Home</a></li>
+     </ul>
+  <!--top style-->
+      <!-- Right side-->
+      <ul class="second">
+        <a href="Science">Science </a><hr>
+        <a href="Commerce">Commerce </a><hr>
+        <a href="arts">Humanities/Arts </a><hr>
+        <a href="Professional">Professional </a>
+      </ul>
+      <!--Right side-->
+      <div id="flow">
+        <a href="Geography" id="Geography">Geography</a>
+        <a href="History" id="History">History</a>
+        <a href="Language" id="Language">Language</a>
+        <a href="Psychology" id="Psychology">Psychology</a>
+        <a href="Sociology" id="Sociology">Sociology</a>
+        <a href="Literature" id="Literature">Literature</a>
+        <a href="Political " id="Political">Political</a>
+       </div>
+<!--TOPIC-->
+<div class="top">
+  <h1 id="top"></h1>
+  <h1><a href ="#bottom"></a></h1> 
+</div>
+  
+</div>
+  <div class="center">
+    <h1>DEPARTMENT OF HISTORY</h1><hr>
+<!--EXPLANATION-->
+</div>
+  <div class="fi">
+    
+    <!--button-->
+        
+    <!--BUTTON END-->
+         
+        <h3 class="p">Pursuing a degree in history offers diverse opportunities and career paths. Here is a detailed guide on how students can shape their future with a B.A. in History: </h3>
+      </div>
+<!--EXPLANATION END-->
+
+<!--STAR THE TOPIC-->
+   <div class="fir">
+      <h1 class="gray"><strong>1. Academic Pathway and Curriculum</strong></h1>
+      <h2 ><strong>Core Subjects: </strong></h2>
+        <ul>
+        <h3><li> Typically include ancient, medieval, and modern history, historiography, world history, and regional history.
+        </li></h3>
+        </ul>
+      <h2 ><strong>Electives:</strong></h2>
+        <ul>
+          <h3><li>May offer courses in cultural history, economic history, social history, and historical research methods.
+        </li></h3>
+        </ul>
+      <h2 ><strong>Skill Development:</strong></h2>
+         <ul>
+          <h3><li> Emphasis on critical thinking, analytical skills, research methodologies, and proficiency in writing and oral communication.
+         </li></h3>
+    </div>
+    <div class="fir">
+      <h1 class="gray"><strong>2.Career Opportunities:</strong></h1>
+      <h2 ><strong>Teaching and Academia:</strong></h2>
+      <h2 ><strong>School Teacher:</strong></h2>
+         <ul>
+          <h3><li>Teaching history in schools after obtaining a B.Ed. degree.
+          </li></h3>
+         </ul>
+      <h2 ><strong>College Lecturer/Professor: </strong></h2>
+        <ul>
+          <h3><li>Teaching positions in colleges and universities, often requiring a master’s degree (M.A. History) and a Ph.D.
+          </li></h3>
+        </ul>
+      <h2 ><strong>Researcher:</strong></h2>
+         <ul>
+          <h3><li> Engaging in historical research, contributing to academic journals, books, and conferences.
+          </li></h3></ul>
+      <h2><strong> Museums and Archives</strong></h2>
+      <h3><strong>Archivist:</strong></h3>
+           <ul>
+            <h3><li>Managing and preserving historical documents and records.
+            </li></h3>
+           </ul>
+      <h3><strong>Museum Curator:</strong></h3>
+           <ul>
+            <h3><li>Overseeing museum collections, organizing exhibitions, and conducting educational programs.
+            </li></h3>
+           </ul>
+      <h3><strong>Conservator:</strong></h3>
+           <ul>
+            <h3><li>Preserving and restoring historical artifacts and documents.
+            </li></h3>
+           </ul>
+      <h2><strong >Historical Preservation and Cultural Resource Management</strong></h2>
+           <ul>
+            <h3><li>Managing and preserving historic sites and monuments.</li></h3>
+             </ul> 
+          </ul>
+      <h2><strong>Cultural Resource Manager: </strong></h2>
+      <ul>
+        <h3><li>Working with government agencies, NGOs, and private firms to manage and protect cultural resources.</li></h3>
+       </ul> 
+    </ul>
+      <h2><strong>Libraries and Information Services</strong></h2>
+      <h3><strong>Librarian:</strong></h3>
+      <ul>
+       <h3><li>Specializing in managing historical collections and archives.</li></h3>
+        <h3><strong>Information Specialist:</strong></h3>
+        <h3><li>Providing research and reference services in libraries, especially those with historical collections.</li></h3>
+       </ul> 
+       <h2><strong>Media and Publishing</strong></h2>
+            <h3><strong>Writer/Author:</strong></h3>
+            <h3><li>Writing books, articles, and content on historical topics.</li></h3>
+        <h3><strong>Journalist: </strong></h3>
+            <ul><h3><li>Reporting on historical events, anniversaries, and heritage issues for newspapers, magazines, and digital media.</li></h3></ul>
+        <h3><strong>Editor:</strong></h3>
+            <ul><h3><li>Working for publishing houses, historical journals, and magazines.</li></h3></ul>
+    <h2><strong>Government and Public Sector</strong></h2>
+            <h3><strong>Civil Services:</strong></h3>
+            <ul><h3><li>Appearing for exams like UPSC, where a history background can be advantageous.</li></h3></ul>
+        <h3><strong>Policy Analyst: </strong></h3>
+              <ul><h3><li>Researching and analyzing historical data to inform public policy.</li></h3></ul>
+    <h2><strong>Non-Governmental Organizations (NGOs)</strong></h2>
+        <h3><strong>Cultural Officer:</strong></h3>
+              <ul><h3><li> Promoting and preserving cultural heritage.</li></h3></ul>
+        <h3><strong>Program Coordinator:</strong></h3>
+              <ul><h3><li>Managing projects related to historical research, education, and preservation.</li></h3></ul>
+    <h2><strong>Tourism and Heritage Management</strong></h2>
+        <h3><strong>Tour Guide:</strong></h3>
+              <ul><h3><li>Leading tours at historical sites and providing insights into their significance.</li></h3></ul>
+        <h3><strong>Heritage Manager</strong></h3>
+              <ul><h3><li>Working with heritage sites, museums, and tourism boards to promote and manage historical tourism.</li></h3></ul>
+                             
+    </div>
+    <div class="fir">
+      <h1 class="gray"><strong>3. Further Education and Specialization</strong></h1>
+            <ul>
+              <h3><strong>M.A. in History: </strong> Specializing further in a particular era, region, or theme.</h3>
+              <h3><strong>Ph.D. in History:</strong> Engaging in advanced research and academic career.</h3>
+              <h3><strong>Diploma/Certificate Courses:</strong> Additional qualifications in archival studies, museum studies, heritage management, or public history.</h3>
+            </ul>
+    </div>
+    <div class="fir">
+      <h1 class="gray"><strong>4. Skill Enhancement</strong></h1>
+          <ul>
+             <h3><strong>Research Skills:</strong>Learning advanced research methodologies and using digital archives.</h3>
+             <h3><strong>Technical Skills: </strong>Proficiency in using historical databases, GIS (Geographic Information Systems), and digital tools for historical research.</h3>
+             <h3><strong>Language Skills:</strong>Learning languages relevant to your area of historical study can be beneficial.
+             </h3>
+        </ul>
+    </div>
+    <div class="fir">
+      <h1 class="gray"><strong>5. Networking and Professional Development</strong></h1>
+          <ul>
+             <h3><strong>Historical Societies and Clubs</strong>Joining historical societies, clubs, and professional organizations.</h3>
+             <h3><strong>Conferences and Seminars:</strong>Attending and presenting at academic and professional conferences.</h3>
+             <h3><strong>Professional Associations:</strong> Joining associations for historians, such as the Indian History Congress or similar organizations.
+             </h3>
+        </ul>
+    </div>
+    <div class="fir">
+      <h1 class="gray"><strong> 6. Cultural and Community Engagement </strong></h1>
+        <ul>
+          <h3><strong>Cultural Events:</strong>Participating in and organizing historical reenactments, lectures, and community heritage events.</h3>
+          <h3><strong>Community Service:</strong>  Volunteering for NGOs and community programs focused on history education and preservation.</h3>
+      </ul>
+    </div>
+    <div class="fir">
+      <h1 class="gray"><strong>7. Digital and Online Platforms</strong></h1>
+        <ul>
+          <h3><strong>Blogging and Vlogging: </strong>Creating content on historical topics for blogs, YouTube, or social media.</h3>
+          <h3><strong>Online Tutoring: </strong>Offering history tutoring services through online platforms.</h3>
+        </ul>
+  </div>
+  <div class="fir">
+    <h1 class="gray"><strong>8. Job Search and Applications</strong></h1>
+        <ul>
+          <h3><strong>Resume and Portfolio:</strong>Building a strong resume highlighting research, internships, projects, and relevant experience.
+          <h3><strong>Job Portals and Networking:</strong>  Utilizing job portals, professional networks, and social media to find job opportunities.</h3>
+       </ul></div>
+       <div class="button">
+        <a href="#top">Go to top</a>
+        <div id="bottom"></div>
+  </div>
+</body>
+</html>
+ 

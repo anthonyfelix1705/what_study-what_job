@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What study what job</title>
+    {% load static%}
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    
+</head>
+<style>
+  .body{
+    font-family: "Trirong", serif;
+  }
+    .one{
+        
+        top: 0px;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        background-color: darkslategray;
+        color: white;
+        position: fixed;
+        width: 1360px;
+        table-layout: fixed;
+    }
+
+    .f {
+      margin-left: 1240px;
+    }
+
+    .f{
+        display: block;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+        font-size: large;
+}
+
+.one a:hover {
+  
+  color: white;
+  
+}
+.t{
+  margin-left: 10px;
+}
+.second{
+  height: 100%;
+  width: 270px;
+  position: fixed;
+  z-index: 1;
+  top: 60px;
+  padding-top: 70px;
+  left: 0;
+  background-color: gainsboro;
+  overflow-x: hidden
+
+}
+body{
+  font-family: "Lato", sans-serif;
+}
+.second a{
+  padding: 20px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+  table-layout: fixed;
+   display: inline-flex;
+
+}
+.second button{
+ 
+ border-bottom-right-radius: 20px;
+}
+.second a:hover{
+  color:grey;
+}
+.study{
+  text-align: right;
+}
+.study{
+  margin: left;/* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+.center{
+  margin-left: 300px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  margin-top: 120px;
+  letter-spacing: 7px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.head{
+  margin-left: 280px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-top: 55px;
+  font-size: large;
+  background-color: beige;
+ 
+}
+
+
+#flow a {
+  position: absolute;
+  margin-left:260px;
+  left: -117px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 160px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+ position: fixed;
+}
+#flow a:hover {
+  left: 0;
+}
+#physics{
+top: 200px;
+background-color:  darkslategray;
+}
+#chemistry{
+top: 280px;
+background-color:  darkslategray;
+
+}
+#Biology{
+top: 360px;
+background-color: darkslategray;
+
+}
+#Mathematics{
+top: 440px;
+background-color: darkslategray;
+
+}
+#Computer{
+top: 520px;
+background-color:  darkslategray;
+
+}
+.h{
+  margin-top: 40px;
+  margin-left: 305px;
+  
+}
+.fir{
+  
+  margin-left: 330px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-top: 35px;
+  font-size: large;
+  text-align: initial;
+  line-height: 35px;
+}
+.fi{
+  margin-left: 330px;
+  margin-top: 75px;
+}
+.firs{
+   margin-left: 330px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  line-height: 100px;
+  margin-top: 35px;
+  font-size: large;
+  text-align: initial; 
+  
+  } 
+.bottom{
+  width: 150px;
+  background-color: darkslategray ;
+  color:white;
+  padding: 0px;
+  text-align: center;
+  margin-left: 1100px;
+  font-size: 20px;
+  border-radius: 8px;
+  height: auto;
+  border: none;
+  display: inline-block;
+}
+.top{
+  margin-left: 0px;
+  margin-top: 5px;
+}
+
+ 
+</style>
+</head>
+<body >
+  
+  <!--top style-->
+    <ul class="one">
+      
+        <li class="f"><a href="home">Home</a></li>
+     </ul>
+      <!-- side-->
+      <ul class="second">
+        <a href="Science">Science </a><hr>
+        <a href="Commerce">Commerce </a><hr>
+        <a href="arts">Humanities/Arts </a><hr>
+        <a href="Professional">Professional </a>
+      </ul>
+      <div class="top">
+        <h1 id="top"></h1>
+        <h1><a href ="#bottom"></a></h1> 
+</div>
+      <div class="center">
+         <h1>DEPARTMENT OF COMPUTER</h1><hr>
+      </div>
+     <div id="flow">
+      <a href="physics" id="physics">physics</a>
+      <a href="chemistry" id="chemistry">chemistry</a>
+      <a href="Biology" id="Biology">Biology</a>
+      <a href="Mathematics" id="Mathematics">Mathematics</a>
+      <a href="Computer" id="Computer">Computer</a>
+     </div>
+     <div class="fi">
+      <h3><P><dd class="p">
+        The computer department in a school typically covers a wide range of topics related to computer science and information technology. 
+        Here's an overview of what students may learn in a computer department:</dd></P></h3>
+    </div>
+    <div class="fir">
+    <h2 ><strong>Programming: </strong></h2>
+     <ul>
+      <h3><li> Students learn programming languages such as Python, Java, C++, or JavaScript. They study programming concepts like variables, data types, control structures (loops and conditionals), functions, and object-oriented programming principles.</h3>
+      </li>
+     </ul>
+     <h2 ><strong>Data Structures and Algorithms: </strong></h2>
+     <ul>
+      <h3><li> This area focuses on fundamental data structures (arrays, linked lists, stacks, queues, trees, graphs) and algorithm design techniques (sorting, searching, recursion, dynamic programming) to solve computational problems efficiently.</h3>
+      </li>
+     </ul>
+     <h2 ><strong>Computer Architecture and Organization:</strong></h2>
+     <ul>
+      <h3><li>Students study the internal workings of computers, including CPU, memory, storage, input/output devices, and the basics of digital logic design. They may also learn about computer hardware components and assembly language programming.</h3>
+      </li>
+     </ul>
+     <h2 ><strong>Operating Systems:</strong></h2>
+     <ul>
+      <h3><li>Operating systems are the software that manages computer hardware and provides services to applications. Students learn about process management, memory management, file systems, and concurrency control in operating systems like Linux, Windows, or macOS.</h3>
+      </li>
+     </ul>
+     <h2 ><strong>Databases: </strong></h2>
+     <ul>
+      <h3><li>Students learn about database management systems (DBMS) and database design principles. They study SQL (Structured Query Language) for querying and manipulating databases, as well as concepts like normalization, indexing, and transactions.</h3>
+      </li>
+     </ul>
+     <h2 ><strong>Networking:</strong></h2>
+     <ul >
+      <h3><li> Networking covers the principles of computer networks, including protocols, topologies, network layers, and communication technologies (e.g., Ethernet, TCP/IP). Students may learn about configuring and troubleshooting network devices and services.</h3>
+      </li>
+     </ul>
+     <h2 ><strong>Software Engineering:</strong></h2>
+     <ul >
+      <h3><li>Software engineering focuses on the systematic development of software products. Students learn about software development methodologies (e.g., Agile, Waterfall), requirements engineering, software design, testing, and maintenance.</h3>
+      </li>
+     </ul>
+     <h2 ><strong>Web Development:</strong></h2>
+     <ul >
+      <h3><li>This area covers the development of websites and web applications. Students learn about web technologies such as HTML, CSS, JavaScript, server-side scripting languages (e.g., PHP, Python, Ruby), and frameworks like Django or React.</h3>
+      </li>
+     </ul>
+     <h2 ><strong>Cybersecurity: </strong></h2>
+     <ul >
+      <h3><li>Cybersecurity addresses the protection of computer systems, networks, and data from cyber threats. Students learn about security principles, cryptography, secure coding practices, and techniques for detecting and preventing cyber attacks.</h3>
+      </li>
+     </ul>
+     <h2><strong>Artificial Intelligence and Machine Learning: </strong> </h2>
+     <ul >
+      <h3><li> Students may study the principles of AI and machine learning, including algorithms for pattern recognition, data mining, and predictive modeling. They may also learn about applications of AI in various fields.</h3>
+      </li>
+     </ul>
+     <h2><strong>Human-Computer Interaction: </strong> </h2>
+     <ul >
+      <h3><li> This area focuses on designing user-friendly interfaces for computer systems and applications. Students learn about usability principles, user interface design, user experience (UX) research, and interaction design.</h3>
+      </li>
+    </ul>
+  </div>
+  <div class="firs"> 
+    <h3><strong> These topics provide a foundation in computer science and technology, preparing students for careers in software development, IT management, cybersecurity, data analysis, and other fields related to computing. The specific curriculum may vary depending on the educational level (e.g., high school, undergraduate, graduate) and the focus of the program.</strong></h3>
+  </div>
+    <div class="bottom">
+      <a href="#top">Go to top</a>
+<div id="bottom"></div>
+    
+  </div>
+</body>
+</html>
+ 

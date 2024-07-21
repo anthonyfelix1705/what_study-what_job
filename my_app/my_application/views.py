@@ -1,0 +1,98 @@
+from django.shortcuts import render
+from django.http import HttpResponse
+
+# Create your views here.
+def login(request):
+    return render(request,'login.html') 
+def registeration(request):
+    return render(request,'registeration.html')   
+def home(request):
+    return render(request,'home.html')   
+def tenth(request):
+    return render(request,'tenth.html')  
+def science(request):
+    return render(request,'science.html')   
+def physics(request):
+    return render(request,'physics.html')  
+def chemistry(request):
+    return render(request,'chemistry.html')  
+def biology(request):
+    return render(request,'biology.html')   
+def mathematics(request):
+    return render(request,'mathematics.html')    
+def computer(request):
+    return render(request,'computer.html')    
+def Commerce(request):
+    return render(request,'Commerce.html')    
+def arts(request):
+    return render(request,'arts.html')
+def Economic(request):
+    return render(request,'Economic.html')
+def Accounts(request):
+    return render(request,'Accounts.html')
+def Business(request):
+    return render(request,'Business.html')
+def Geography(request):
+    return render(request,'Geography.html')
+def Language(request):
+    return render(request,'Language.html')
+def History(request):
+    return render(request,'History.html')
+def Psychology(request):
+    return render(request,'Psychology.html')
+def Sociology(request):
+    return render(request,'Sociology.html')
+def Literature(request):
+    return render(request,'Literature.html')
+def Political(request):
+    return render(request,'Political.html')
+def Professional(request):
+    return render(request,'Professional.html')
+def aftertwelth(request):
+    return render(request,'aftertwelth.html')
+def aarts(request):
+    return render(request,'aarts.html')
+def acommerce(request):
+    return render(request,'acommerce.html')
+def ascience(request):
+    return render(request,'ascience.html')
+def medical(request):
+    return render(request,'medical.html')
+def design(request):
+    return render(request,'design.html')
+def law(request):
+    return render(request,'law.html')
+def hotel(request):
+    return render(request,'hotel.html')
+def osc(request):
+    return render(request,'osc.html')
+def vocational(request):
+    return render(request,'vocational.html')
+def aftercollege(request):
+    return render(request,'aftercollege.html')
+def government(request):
+    return render(request,'government.html')
+def upsc(request):
+    return render(request,'upsc.html')
+def tnpsc(request):
+    return render(request,'tnpsc.html')
+def ssc(request):
+    return render(request,'ssc.html')
+def artsjob(request):
+    return render(request,'artsjob.html')
+def commercejob(request):
+    return render(request,'commercejob.html')
+def medicaljob(request):
+    return render(request,'medicaljob.html')
+def designjob(request):
+    return render(request,'designjob.html')
+def engineeringjob(request):
+    return render(request,'engineeringjob.html')
+def itjob(request):
+    return render(request,'itjob.html')
+def diplomajob(request):
+    return render(request,'diplomajob.html')
+def sciencejob(request):
+    return render(request,'sciencejob.html')
+   
+

@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What study what job</title>
+    {% load static%}
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    
+</head>
+<style>
+  .body{
+    font-family: "Trirong", serif;
+  }
+    .one{
+        
+        top: 0px;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        background-color: darkslategray;
+        color: white;
+        position: fixed;
+        width: 1360px;
+        table-layout: fixed;
+    }
+
+    .f {
+      margin-left: 1240px;
+    }
+
+    .f{
+      
+        display: block;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+        font-size: large;
+}
+
+.one a:hover {
+  
+  color: white;
+  
+}
+.t{
+  margin-left: 10px;
+}
+.second{
+  height: 100%;
+  width: 270px;
+  position: fixed;
+  z-index: 1;
+  top: 60px;
+  padding-top: 70px;
+  left: 0;
+  background-color: gainsboro;
+  overflow-x: hidden
+
+}
+body{
+  font-family: "Lato", sans-serif;
+}
+.second a{
+  padding: 20px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+  table-layout: fixed;
+   display: inline-flex;
+
+}
+.second button{
+ 
+ border-bottom-right-radius: 20px;
+}
+.second a:hover{
+  color:grey;
+}
+.study{
+  text-align: right;
+}
+.study{
+  margin: left;/* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+.center{
+  margin-left: 300px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  margin-top: 120px;
+  letter-spacing: 7px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.head{
+  margin-left: 280px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-top: 55px;
+  font-size: large;
+  background-color: beige;
+ 
+}
+#flow a {
+  position: absolute;
+  margin-left:260px;
+  left: -117px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 160px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  position: fixed;
+ 
+}
+#flow a:hover {
+  left: 0;
+}
+#Geography{
+top: 177px;
+background-color:  darkslategray;
+}
+#Language{
+top: 240px;
+background-color: darkslategray;
+}
+#History{
+top: 304px;
+background-color:  darkslategray}
+#Psychology{
+top: 367px;
+background-color:  darkslategray;
+
+}
+#Sociology{
+top: 430px;
+background-color:  darkslategray;
+
+}
+#Literature{
+top: 494px;
+background-color:  darkslategray;
+
+}
+#Political{
+top: 558px;
+background-color: darkslategray;
+
+}
+
+.h{
+  margin-top: 40px;
+  margin-left: 305px;
+  
+}
+.fir{
+  
+  margin-left: 330px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-top: 35px;
+  font-size: large;
+  text-align: initial;
+  line-height: 35px;
+}
+.gray{
+  color: #201e1e;
+}
+.fi{
+  margin-left: 330px;
+  margin-top: 75px;
+}
+.firs{
+   margin-left: 330px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  line-height: 100px;
+  margin-top: 35px;
+  font-size: large;
+  text-align: initial; 
+  
+  }  
+  .button{
+  width: 150px;
+  background-color: darkslategray ;
+  color:white;
+  padding: 0px;
+  text-align: center;
+  margin-left: 1100px;
+  font-size: 20px;
+  border-radius: 8px;
+  height: auto;
+  border: none;
+  display: inline-block;
+
+}
+.top{
+  margin-left: 0px;
+  margin-top: 5px;
+}
+</style>
+</head>
+<body >
+  
+  <!--top style-->
+    <ul class="one">
+      
+        <li class="f"><a href='home'>Home</a></li>
+     </ul>
+      <!-- side-->
+      <ul class="second">
+        <a href="Science">Science </a><hr>
+        <a href="Commerce">Commerce </a><hr>
+        <a href="arts">Humanities/Arts </a><hr>
+        <a href="Professional">Professional </a>
+      </ul>
+      <div id="flow">
+        <a href="Geography" id="Geography">Geography</a>
+        <a href="History" id="History">History</a>
+        <a href="Language" id="Language">Language</a>
+        <a href="Psychology" id="Psychology">Psychology</a>
+        <a href="Sociology" id="Sociology">Sociology</a>
+        <a href="Literature" id="Literature">Literature</a>
+        <a href="Political " id="Political">Political</a>
+       </div>
+<!--star the page-->
+<div class="top">
+  <h1 id="top"></h1>
+  <h1><a href ="#bottom"></a></h1> 
+</div>
+    <div class="center">
+          <h1>DEPARTMENT OF PSYCHOLOGY</h1><hr>
+    </div>
+    <div class="fi">
+     
+      <h3><P><dd class="p">
+        Pursuing a degree in psychology offers a wide range of career opportunities and paths. Here is a detailed guide on how students can shape their future with a B.A. in Psychology:
+      </dd></P></h3>
+    </div>
+    <div class="fir">
+      <h1 class="gray"><strong> 1.Academic Pathway and Curriculum:</strong></h1>
+      <h2 ><strong>Core Subjects:</strong></h2>
+        <ul>
+        <h3><li>Typically include introductory psychology, developmental psychology, abnormal psychology, cognitive psychology, social psychology, and research methods
+        </li></h3> 
+        </ul>
+      <h2 ><strong>Electives: </strong></h2>
+        <ul>
+          <h3><li>May offer courses in areas such as clinical psychology, health psychology, organizational psychology, forensic psychology, and neuropsychology.
+        </li></h3> 
+        </ul>
+      <h2 ><strong>Skill Development:</strong></h2>
+         <ul>
+          <h3><li>Emphasis on critical thinking, research skills, understanding of human behavior, and proficiency in psychological assessment and counseling techniques.
+         </li></h3> 
+    </ul>
+    </div>
+    <div class="fir">
+      <h1 class="gray"><strong>2.Career Opportunities:</strong></h1>
+      <h2 ><strong>Clinical and Counseling Psychology</strong></h2>
+      <h2 ><strong>Clinical Psychologist: </strong></h2>
+         <ul>
+          <h3><li>Requires a master’s degree (M.A. or M.Sc. in Clinical Psychology) and often a Ph.D. or Psy.D. Working in hospitals, mental health clinics, or private practice to diagnose and treat mental health disorders.
+          </li></h3> 
+         </ul>
+      <h2 ><strong>Counseling Psychologist:</strong></h2>
+        <ul>
+          <h3><li>Providing therapy and counseling services in schools, colleges, community centers, or private practice.
+          </li></h3> 
+        </ul>
+      <h2 ><strong>Educational and School Psychology</strong></h2>
+      <h2 ><strong>School Psychologist:</strong></h2>
+      <ul>
+        <h3><li>Working in educational settings to support students’ mental health and learning needs. Requires additional qualifications such as an M.Ed. or an M.A. in School Psychology.
+          </li></h3></ul>
+      <h2><strong> Educational Psychologist:</strong></h2>
+           <ul>
+            <h3><li>Conducting research and developing programs to enhance learning and teaching methods.
+            </li></h3> 
+            <h2><strong></ul>Industrial-Organizational Psychology</strong></h2>
+            <h2><strong>Human Resources Specialist: </strong><h2>
+            <ul>
+              <h3><li>Applying psychological principles to recruitment, training, employee development, and organizational behavior.
+            </li></h3> 
+           </ul>
+      <h2><strong >Organizational Development Consultant:</strong></h2>
+           <ul>
+            <h3><li>Working with businesses to improve workplace productivity, employee satisfaction, and overall organizational effectiveness.</li> </h3> 
+          </ul>
+      <h2><strong >Health Psychology</strong></h2>
+      <h2><strong >Health Psychology</strong></h2>
+          <ul>
+            <h3><li>Working in healthcare settings to promote healthy behaviors, manage chronic illness, and improve patient outcomes.</li></h3>  
+         </ul>
+      <h2><strong>Rehabilitation Psychologist:</strong></h2>
+          <ul>
+            <h3><li> Assisting individuals in coping with disabilities and chronic health conditions.</li></h3>  
+         </ul>
+      <h2><strong>Forensic Psychology</strong></h2>
+      <h2><strong>Forensic Psychology</strong></h2>
+          <ul>
+            <h3><li>Applying psychological principles within the legal and criminal justice system, often requiring a master’s or doctoral degree in forensic psychology.</li></h3>  
+          </ul>
+      <h2><strong>Criminal Profiler: </strong></h2>
+          <ul>
+            <h3><li> Working with law enforcement agencies to develop profiles of criminal behavior.</li></h3>  
+          </ul>
+          <h2><strong>Research and Academia</strong></h2>
+          <h2><strong>Researcher:</strong></h2>
+              <ul>
+                <h3><li> Conducting psychological research in academic institutions, government agencies, or private research firms.</li></h3>  
+              </ul>
+          <h2><strong>Professor/Lecturer:</strong></h2>
+              <ul>
+                <h3><li> Teaching psychology at colleges and universities, typically requiring a Ph.D.</li> </h3> 
+              </ul>
+              <h2><strong>Community and Social Services</strong></h2>
+              <h2><strong>Social Worker: </strong></h2>
+                  <ul>
+                    <h3><li> Providing support services to individuals, families, and communities. May require additional qualifications in social work.</li> </h3> 
+                  </ul>
+              <h2><strong>Community Psychologist::</strong></h2>
+                  <ul>
+                    <h3><li>Working with communities to address social issues and promote well-being.</li></h3> 
+                  </ul>
+    </div>
+    <div class="fir">
+      <h1 class="gray"><strong> 3. Further Education and Specialization</strong></h1>
+            <ul>
+              <h3><strong>M.A. or M.Sc. in Psychology:</strong> Specializing in a specific area of psychology.</h3>
+              <h3><strong>Ph.D. or Psy.D.: </strong>Pursuing advanced research or clinical practice.</h3>
+              <h3><strong>Diploma/Certificate Courses:</strong> Additional qualifications in areas like counseling, child psychology, or organizational behavior.</h3>
+            </ul>
+    </div>
+    <div class="fir">
+      <h1 class="gray"><strong> 4. Skill Enhancement</strong></h1>
+          <ul>
+             <h3><strong>Research Skills: </strong>Developing proficiency in research methodologies, statistical analysis, and using software like SPSS.</h3>
+             <h3><strong>Technical Skills: </strong> Learning to administer and interpret psychological assessments.</h3>
+             <h3><strong>Soft Skills:</strong>Enhancing communication, empathy, and problem-solving skills essential for effective practice.
+             </h3>
+        </ul>
+    </div>
+    <div class="fir">
+      <h1 class="gray"><strong> 5. Networking and Professional Development</strong></h1>
+      <h1><strong>Development</strong></h1>
+      <ul>
+             <h3><strong>Professional Associations:</strong> Joining associations like the American Psychological Association (APA), Indian Psychological Association (IPA), or similar organizations.</h3>
+             <h3><strong>Conferences and Workshops:</strong> Attending and presenting at psychological conferences and workshops to stay updated with the latest research and practices.</h3>
+             <h3><strong>Mentorship:</strong>Seeking guidance from experienced professionals in the field.
+             </h3>
+        </ul>
+    </div>
+    <div class="fir">
+      <h1 class="gray"><strong>6. Internships and Practical Experience</strong></h1>
+        <ul>
+          <h3><strong>Internships:</strong>Gaining practical experience through internships in clinical settings, research labs, schools, or corporate environments.</h3>
+          <h3><strong>Volunteer Work: </strong> Volunteering with mental health organizations or community service programs.</h3>
+      </ul>
+    </div>
+    <div class="fir">
+      <h1 class="gray"><strong>7. Digital and Online Platforms</strong></h1>
+        <ul>
+          <h3><strong>Content Creation:</strong>Offering teletherapy and online counseling services.</h3>
+          <h3><strong>Online Tutoring: </strong> Creating blogs, podcasts, or YouTube channels focused on mental health awareness and education.</h3>
+        </ul>
+  </div>
+  <div class="fir">
+    <h1 class="gray"><strong>8. Job Search and Applications</strong></h1>
+        <ul>
+          <h3><strong>Resume and Portfolio:</strong>Building a strong resume highlighting relevant coursework, research experience, internships, and certifications.</h3>
+          <h3><strong>Job Portals and Networking:</strong> Utilizing job portals, professional networks, and social media to find job opportunities.</h3>
+       </ul></div>
+       <div class="button">
+        <a href="#top">Go to top</a>
+        <div id="bottom"></div>
+  </div>
+</body>
+</html>
+ 

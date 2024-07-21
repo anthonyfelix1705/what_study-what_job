@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <style>
+        table{
+            font-family: Arial, sans-serif;
+            margin: 100px;
+            padding: 0;
+            background-color: #ffffff;
+
+        }
+        table ,td{
+          padding: 10px;
+        }
+        .login-container table{
+            max-width: 400px;
+            margin: 100px auto;
+            padding: 50px;
+            border-radius: 50px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .login-container h1{
+            color:green;
+           
+        }
+          
+    </style>
+</head>
+<body>
+    <div class="login-container">
+    <form action="home">  
+    <table >
+        <tr>
+        <th ><h1>Registeration</h1></th>
+        </tr>
+        <tr>
+            <td><label for="username">Username:</label></td>
+            <td><input title="Your name" type="text" id="username" name="username"></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input title=" Your Email Id" type="email" id="email" name="email"></td>
+          </tr>
+          <tr>
+            <td><label for="password">Password:</label></td>
+            <td><input title="password" type="password" id="password" name="password"></td>
+          </tr>
+          <tr>
+            <td><label for="confirm_password">Confirm Password:</label></td>
+            <td><input title="confirm password" type="password" id="confirm_password" name="confirm_password"></td>
+          </tr>
+          <tr>
+            
+            <th colspan="2"><input title="Register" type="submit" value="Register"></th>
+            <th></th>
+          </tr>
+    </table>
+    </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What study what job</title>
+    {% load static%}
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    
+</head>
+<style>
+  .body{
+    font-family: "Trirong", serif;
+  }
+    .one{
+        
+        top: 0px;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        background-color: darkslategray;
+        color: white;
+        position: fixed;
+        width: 1360px;
+        table-layout: fixed;
+    }
+
+    .f {
+      margin-left: 1240px;
+    }
+
+    .f{
+      
+        display: block;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+        font-size: large;
+}
+
+.one a:hover {
+  
+  color: white;
+  
+}
+.t{
+  margin-left: 10px;
+}
+.second{
+  height: 100%;
+  width: 270px;
+  position: fixed;
+  z-index: 1;
+  top: 60px;
+  padding-top: 70px;
+  left: 0;
+  background-color: gainsboro;
+  overflow-x: hidden
+
+}
+body{
+  font-family: "Lato", sans-serif;
+}
+.second a{
+  padding: 20px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+  table-layout: fixed;
+   display: inline-flex;
+
+}
+.second button{
+ 
+ border-bottom-right-radius: 20px;
+}
+.second a:hover{
+  color:grey;
+}
+.study{
+  text-align: right;
+}
+.study{
+  margin: left;/* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+.center{
+  margin-left: 300px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  margin-top: 120px;
+  letter-spacing: 7px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.head{
+  margin-left: 280px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-top: 55px;
+  font-size: large;
+  background-color: beige;
+ 
+}
+#flow a {
+  position: absolute;
+  margin-left:260px;
+  left: -117px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 160px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  position: fixed;
+ 
+}
+#flow a:hover {
+  left: 0;
+}
+#Geography{
+top: 177px;
+background-color:  darkslategray;
+}
+#Language{
+top: 240px;
+background-color: darkslategray;
+}
+#History{
+top: 304px;
+background-color:  darkslategray}
+#Psychology{
+top: 367px;
+background-color:  darkslategray;
+
+}
+#Sociology{
+top: 430px;
+background-color:  darkslategray;
+
+}
+#Literature{
+top: 494px;
+background-color:  darkslategray;
+
+}
+#Political{
+top: 558px;
+background-color: darkslategray;
+
+}
+
+.h{
+  margin-top: 40px;
+  margin-left: 305px;
+  
+}
+.fir{
+  
+  margin-left: 330px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-top: 35px;
+  font-size: large;
+  text-align: initial;
+  line-height: 35px;
+}
+.gray{
+  color: #201e1e;
+}
+.fi{
+  margin-left: 330px;
+  margin-top: 75px;
+}
+.firs{
+   margin-left: 330px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  line-height: 100px;
+  margin-top: 35px;
+  font-size: large;
+  text-align: initial; 
+  
+  }  
+  .button{
+  width: 150px;
+  background-color: darkslategray ;
+  color:white;
+  padding: 0px;
+  text-align: center;
+  margin-left: 1100px;
+  font-size: 20px;
+  border-radius: 8px;
+  height: auto;
+  border: none;
+  display: inline-block;
+
+}
+.top{
+  margin-left: 0px;
+  margin-top: 5px;
+}
+</style>
+</head>
+<body >
+  
+  <!--top style-->
+    <ul class="one">
+      
+        <li class="f"><a href='home'>Home</a></li>
+     </ul>
+      <!-- side-->
+      <ul class="second">
+        <a href="Science">Science </a><hr>
+        <a href="Commerce">Commerce </a><hr>
+        <a href="arts">Humanities/Arts </a><hr>
+        <a href="Professional">Professional </a>
+      </ul>
+      <div id="flow">
+        <a href="Geography" id="Geography">Geography</a>
+        <a href="History" id="History">History</a>
+        <a href="Language" id="Language">Language</a>
+        <a href="Psychology" id="Psychology">Psychology</a>
+        <a href="Sociology" id="Sociology">Sociology</a>
+        <a href="Literature" id="Literature">Literature</a>
+        <a href="Political " id="Political">Political</a>
+       </div>
+<!--star the page-->
+<div class="top">
+  <h1 id="top"></h1>
+  <h1><a href ="#bottom"></a></h1> 
+</div>
+    <div class="center">
+          <h1>DEPARTMENT OF POLITICAL</h1><hr>
+    </div>
+    <div class="fi">
+     
+      <h3><P><dd class="p">
+        Building a successful future in the political science department as a student involves a mix of academic excellence, practical experience, strategic networking, and long-term planning. Here are some key steps to consider:
+      </dd></P></h3>
+    </div>
+<div class="fir">
+    <h1 class="gray"><strong> Academic Excellence</strong></h1>
+    <h2 ><strong>Coursework:</strong></h2>
+      <ul><h3><li>Enroll in a variety of political science courses to gain a broad understanding of different areas such as political theory, comparative politics, international relations, and public policy.</li></h3></ul>
+    <h2 ><strong>Research Skills: </strong></h2>
+      <ul><h3><li> Develop strong research skills by engaging deeply with both qualitative and quantitative methods. Learn to analyze data, conduct surveys, and interpret statistical results.</li></h3></ul>
+    <h2 ><strong>Critical Thinking:</strong></h2>
+      <ul><h3><li>Hone your critical thinking and analytical skills by engaging with complex political texts, theories, and current events.</li></h3></ul>
+    <h2 ><strong>Writing:</strong></h2>
+      <ul><h3><li>Improve your writing skills, focusing on crafting well-argued essays, research papers, and policy briefs. Clear and persuasive communication is crucial in the field of political science.</li></h3></ul>
+    <h1 class="gray"><strong>Practical Experience</strong></h1>
+    <h2 ><strong>Internships:</strong></h2>
+      <ul><h3><li>Seek internships in government agencies, non-profits, think tanks, political campaigns, or international organizations. These provide valuable real-world experience and professional connections.</li></h3></ul>
+    <h2 ><strong>Volunteering:</strong></h2>
+      <ul><h3><li> Volunteer for political campaigns, civic organizations, or community projects to gain practical experience and demonstrate your commitment to public service.</li></h3></ul>
+    <h2 ><strong>Research Projects: </strong></h2>
+      <ul><h3><li>Participate in faculty-led research projects or initiate your own to gain hands-on research experience.</li></h3></ul>
+
+<h1 class="gray"><strong>Strategic Networking</strong></h1>
+<h2 ><strong>Networking:</strong></h2>
+     <ul><h3><li>Attend academic conferences, seminars, and workshops to meet professionals in the field and stay updated on the latest research and developments.</li></h3></ul>
+<h2 ><strong>Mentorship: </strong></h2>
+  <ul><h3><li>Find a mentor among your professors or professionals in the field who can provide guidance, support, and letters of recommendation.</li></h3></ul>
+<h2 ><strong>Student Organizations: </strong></h2>\
+  <ul><h3><li>Join or start political science clubs or societies at your university to connect with like-minded peers and engage in discussions and events.</li></h3></ul> 
+
+  <h1 class="gray"><strong>Long-term Goals</strong></h1>
+<h2 ><strong>Specialization:</strong></h2>
+    <ul><h3></h3><li>Identify your area of specialization early (e.g., international relations, public policy, political theory) and tailor your coursework, research, and internships accordingly.</li></h3></ul>
+<h2 ><strong>Graduate Studies: </strong></h2>
+    <ul><h3><li>If you aim for an academic or advanced professional career, plan for graduate studies by maintaining a strong GPA, gaining research experience, and preparing for relevant standardized tests (like the GRE).</li></h3></ul>
+<h2 ><strong>SPublications: </strong></h2>
+    <ul><h3><li> Aim to publish your research in academic journals or present at conferences to build your academic credentials.</li></h3></ul>
+
+<h1 class="gray"><strong>Extracurricular Activities</strong></h1>
+<h2 ><strong>Debate and Model UN:</strong></h2>
+    <ul><h3><li>Participate in debate clubs or Model United Nations to develop your public speaking, negotiation, and critical thinking skills.</li></h3></ul>
+<h2 ><strong>Writing and Blogging:</strong></h2>
+    <ul><h3><li> Write for campus publications or start a political blog to showcase your analysis and opinions on political issues.</li></h3></ul>
+
+<h1 class="gray"><strong>Professional Development</strong></h1>
+<h2 ><strong>Workshops and Seminars:</strong></h2>
+    <ul><h3><li>Attend professional development workshops and seminars on topics like policy analysis, public speaking, and grant writing.</li></h3></ul>
+<h2 ><strong>Certifications and Courses:</strong></h2>
+    <ul><h3><li>Consider additional certifications or online courses in areas such as data analysis, public administration, or international relations to enhance your skill set.</li></h3></ul>
+
+<h1 class="gray"><strong>Public Engagement</strong></h1>
+<h2 ><strong>Community Involvement: </strong></h2>
+    <ul><h3><li>Engage with your local community by attending town hall meetings, joining local advocacy groups, or volunteering for civic projects.</li></h3></ul>
+<h2 ><strong>Public Speaking: </strong></h2>
+    <ul><h3><li> Develop your public speaking skills by participating in forums, debates, and public lectures.</li></h3></ul>
+
+<h1 class="gray"><strong>Continuous Learning and Adaptability</strong></h1>
+<h2 ><strong>Stay Informed: </strong></h2>
+    <ul><h3><li>Keep up with current events, political developments, and scholarly research. Subscribe to political journals, follow relevant blogs, and participate in online forums.</li></h3></ul>
+<h2 ><strong>Adaptability:</strong></h2>
+    <ul><h3><li>Be open to exploring interdisciplinary approaches and new methodologies. The field of political science is continually evolving, and adaptability is key to staying relevant.</li></h3>
+</div>    
+    
+<div class="button">
+  <a href="#top">Go to top</a>
+  <div id="bottom"></div>
+</div>
+</body>
+</html>
+ 

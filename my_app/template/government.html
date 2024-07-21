@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What study what job</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    {% load static%}
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    
+</head>
+<style>
+  .body{
+    font-family: "Trirong", serif;
+  }
+    .one{
+        
+        top: 0px;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        background-color: darkslategray;
+        color: rgba(255, 255, 255, 0.363);
+        position: fixed;
+        width: 1360px;
+        table-layout: fixed;
+    }
+
+    .f {
+      margin-left: 1240px;
+    }
+
+    .f{
+        display: block;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+        font-size: large;
+}
+
+.one a:hover {
+  color: white;
+}
+
+.button{
+   width: 300px;
+   height:60px;
+   top: 50px;
+   margin-top: 10px;
+   border-radius: 10px;
+   font-size: larger;
+   position: fixed;
+   overflow-x: hidden;
+   border-top-right-radius: 3px;
+}
+.buttontwo{
+width: 300px;
+height:60px;
+margin-top: 51px;
+border-radius: 10px;
+font-size: larger;
+position: fixed;
+overflow-x: hidden;
+border-top-right-radius: 3px;
+}
+.buttonthree{
+width: 300px;
+height:60px;
+margin-top: 113px;
+border-radius: 10px;
+font-size: larger;
+position: fixed;
+overflow-x: hidden;
+border-top-right-radius: 3px;
+}
+.buttonfour{
+width: 300px;
+height:60px;
+margin-top: 175px;
+border-radius: 10px;
+font-size: larger;
+position: fixed;
+overflow-x: hidden;
+border-top-right-radius: 3px;
+}
+.buttonf{
+  width: 300px;
+  height:60px;
+margin-top: 237px;
+border-radius: 10px;
+font-size: larger;
+position: fixed;
+overflow-x: hidden;
+border-top-right-radius: 3px;
+}
+.buttons{
+  width: 300px;
+  height:60px;
+margin-top: 298px;
+border-radius: 10px;
+font-size: larger;
+position: fixed;
+overflow-x: hidden;
+border-top-right-radius: 3px;
+}
+.buttonsv{
+  width: 300px;
+  height: 60px;
+margin-top: 360px;
+border-radius: 10px;
+font-size: larger;
+position: fixed;
+overflow-x: hidden;
+border-top-right-radius: 3px;
+}
+.buttont{
+  width: 300px;
+  height:60px;
+margin-top:422px;
+border-radius: 10px;
+font-size: larger;
+position: fixed;
+overflow-x: hidden;
+border-top-right-radius: 3px;
+}
+.buttonn{
+  width: 300px;
+  height:60px;
+margin-top: 485px;
+border-radius: 10px;
+font-size: larger;
+position: fixed;
+overflow-x: hidden;
+border-top-right-radius: 3px;
+}
+.login-container input:hover{
+  color: rgb(95, 85, 85);
+  -webkit-text-fill-color: black;
+}
+.h{
+  margin: 1px;
+  width: 800px;
+  height: 230px;
+  margin-top: 60px;
+  padding: 40px;
+  margin-left:430px;
+  background-color: lightgrey;
+  border-radius: 20px;
+}
+.topthree{
+  margin-left: 320px;
+  padding: 5px;
+  letter-spacing: 1px;
+  line-height: 40px;
+  margin-top: 70px;
+}
+.color{
+color:darkslategray ;
+}
+.content{
+  margin-top: 40px;
+  margin-left:340px ;
+}
+.topic{
+  margin-top: 100PX;
+  margin-left:340PX;
+  color: darkslategray;
+  
+}
+.upsc{
+  top: 350px;
+  margin-top: 40px;
+  margin-left: 400px;
+  border: 3px;
+  height: 50px;
+  width: 100px;
+  background-color: darkgreen;
+  color: white;
+  border-radius: 13px;
+}
+.ssc{
+  
+  margin-top: -200px;
+  margin-left: 500px;
+  border: 3px;
+  height: 50px;
+  width: 100px;
+  background-color: darkgreen;
+  color: white;
+  border-radius: 13px;
+}
+.tnpsc{
+  
+  margin-top: -210px;
+  margin-left: 600px;
+  border: 3px;
+  height: 50px;
+  width: 100px;
+  background-color: darkgreen;
+  color: white;
+  border-radius: 13px;
+}
+.threetypes input:hover{
+ 
+  background-color: green;
+}
+ </style>
+ </head>
+<body>
+  
+<!--top style-->
+    <ul class="one">
+      <li class="f"><a href="home">Home</a></li>
+    </ul>
+    <div class="center">
+      <h1>AFTER TWELTH</h1>
+    </div>
+<!-- side-->
+<div class="login-container">
+  <form action="government">
+    <input class="button" type="submit" value="Government Jobs" >
+  </form>
+  <form action="artsjob">
+    <input type="submit" value="Arts Job" class="buttontwo">
+  </form>
+  <form action="commercejob">  
+    <input type="submit" value="Commerce Jobs" class="buttonthree">
+  </form>
+  <form action="medicaljob"> 
+    <input type="submit" value="Medical Jobs" class="buttonfour">
+  </form>
+  <form action="designjob">  
+    <input type="submit" value="Design Jobs" class="buttonf">
+  </form>
+  <form action="engineeringjob">
+    <input type="submit" value="Engineering Jobs" class="buttons">
+  </form>
+  <form action="itjob"> 
+    <input type="submit" value="IT Jobs" class="buttonsv">
+  </form>
+  <form action="diplomajob">
+    <input type="submit" value="Diploma" class="buttont">
+  </form>
+  <form action="sciencejob">
+    <input type="submit" value="Science Jobs" class="buttonn">
+  </form>
+</div> 
+<div class="topic">
+        <h1>ALL GOVERNMENT EXAMINATION</h1>
+    </div>
+    <div class="threetypes">
+      <form action="upsc">
+        <input class="upsc" type="submit" value="UPSC" >
+      </form>
+      <form action="ssc">
+        <input class="ssc" type="submit" value="SSC" >
+      </form>
+      <form action="tnpsc">  
+        <input class="tnpsc" type="submit" value="TNPSC" >
+      </form>
+  </div>
+    <div class="topic">
+      <h2> Institute of Banking Personnel Selection (IBPS) Exams</h2>
+  </div>
+  <div class="content">
+    <h2>&#9656;  IBPS Probationary Officer (PO)</h2>
+    <h2>&#9656;  IBPS Clerk</h2>
+    <h2>&#9656;  IBPS Specialist Officer (SO)</h2>
+    <h2>&#9656;  RRB Assistant Loco Pilot (ALP) and Technician</h2>
+    <h2>&#9656;  RRB Senior Section Engineer (SSE)</h2>
+    </div> 
+    </div> 
+    <div class="topic">
+      <h2> Railway Recruitment Board (RRB) Exams</h2>
+  </div>
+  <div class="content">
+    <h2>&#9656;  RRB Non-Technical Popular Categories (NTPC)</h2>
+    <h2>&#9656;  RRB Group D</h2>
+    <h2>&#9656;  RRB Junior Engineer (JE)</h2>
+    <h2>&#9656;  IBPS Regional Rural Banks (RRB) – Officer and Office Assistant</h2>
+    </div> 
+  </div>
+      <div class="topic">
+        <h2> State Bank of India (SBI) Exams</h2>
+    </div>
+    <div class="content">
+      <h2>&#9656;  SBI Probationary Officer (PO)</h2>
+      <h2>&#9656;  SBI Clerk</h2>
+      <h2>&#9656;  SBI Specialist Officer (SO)</h2>
+      </div>
+          <div class="topic">
+            <h2> Reserve Bank of India (RBI) Exams</h2>
+        </div>
+        <div class="content">
+          <h2>&#9656;  RBI Grade B Officer</h2>
+          <h2>&#9656;  RBI Assistant</h2>
+          </div>
+    <div class="topic">
+            <h2> Insurance Sector Exams</h2>
+    </div>
+    <div class="content">
+          <h2>&#9656;  LIC Assistant Administrative Officer (AAO)</h2>
+          <h2>&#9656;  LIC Apprentice Development Officer (ADO)</h2>
+          <h2>&#9656;  NICL Administrative Officer (AO)</h2>
+          <h2>&#9656;  UIIC Administrative Officer (AO)</h2>
+          <h2>&#9656;  NIACL Administrative Officer (AO)</h2>
+          </div>
+          <div class="topic">
+            <h2> Teaching and Education Exams</h2>
+    </div>
+    <div class="content">
+          <h2>&#9656;  Central Teacher Eligibility Test (CTET)</h2>
+          <h2>&#9656;  State Teacher Eligibility Test (TET)</h2>
+          <h2>&#9656;  National Eligibility Test (NET)</h2>
+          <h2>&#9656;  State Eligibility Test (SET)</h2>
+          <h2>&#9656;  Kendriya Vidyalaya Sangathan (KVS) Exams</h2>
+          <h2>&#9656;  Navodaya Vidyalaya Samiti (NVS) Exams</h2>
+          </div>
+    <div class="topic">
+            <h2> Defence Exams</h2>
+    </div>
+    <div class="content">
+          <h2>&#9656;  Indian Army Technical Entry Scheme (TES)</h2>
+          <h2>&#9656;  Indian Navy Sailor Entry (AA, SSR)</h2>
+          <h2>&#9656;  Indian Air Force Airmen (Group X & Y)</h2>
+          <h2>&#9656;  Territorial Army Officers</h2>
+          <h2>&#9656;  Coast Guard Yantrik and Navik</h2>
+          </div>
+    <div class="topic">
+       <h2>Public Sector Undertakings (PSUs) Exams</h2>
+    </div>
+    <div class="content">
+          <h2>&#9656;  GATE (Graduate Aptitude Test in Engineering) for PSU recruitment</h2>
+          <h2>&#9656;  ONGC Recruitment</h2>
+          <h2>&#9656;  BHEL Recruitment</h2>
+          <h2>&#9656;  SAIL Recruitment</h2>
+          <h2>&#9656;  NTPC Recruitment</h2>
+          </div>
+          <div class="topic">
+            <h2>Judiciary Exams</h2>
+         </div>
+         <div class="content">
+               <h2>&#9656;  Judicial Services Examination</h2>
+               <h2>&#9656;  Public Prosecutor Examination</h2>
+          </div>
+          <div class="topic">
+            <h2>State Public Service Commission (PSC) Exams</h2>
+         </div>
+         <div class="content">
+               <h2>&#9656;  State Civil Services Examination</h2>
+               <h2>&#9656;  State Engineering Services Examination</h2>
+               <h2>&#9656;  State Forest Services Examination</h2>
+               <h2>&#9656;  State Police Services Examination</h2>
+               <h2>&#9656;  State Judiciary Services Examination</h2>
+          </div>
+          <div class="topic">
+            <h2>Municipal and Local Government Exams</h2>
+         </div>
+         <div class="content">
+               <h2>&#9656;  Municipal Corporation Recruitment</h2>
+               <h2>&#9656;  Urban Local Bodies Recruitment</h2>
+          </div>
+          <div class="topic">
+            <h2> Central Armed Police Forces (CAPF) Exams</h2>
+         </div>
+         <div class="content">
+               <h2>&#9656;  BSF Recruitment</h2>
+               <h2>&#9656;  CRPF Recruitment</h2>
+               <h2>&#9656;  ITBP Recruitment</h2>
+               <h2>&#9656;  SSB Recruitment</h2>
+               
+          </div>
+          <div class="topic">
+            <h2> Agricultural and Allied Sector Exams</h2>
+         </div>
+         <div class="content">
+               <h2>&#9656;  ICAR (Indian Council of Agricultural Research) Exams</h2>
+               <h2>&#9656;  Agricultural Scientist Recruitment Board (ASRB) Exams</h2>
+          </div>
+          <div class="topic">
+            <h2> Medical and Health Services Exams</h2>
+         </div>
+         <div class="content">
+               <h2>&#9656;  AIIMS Recruitment Exams</h2>
+               <h2>&#9656;  JIPMER Recruitment Exams</h2>
+               <h2>&#9656;  ESIC Recruitment Exams</h2>
+          </div>
+          <div class="topic">
+            <h2> Postal Services Exams</h2>
+         </div>
+         <div class="content">
+               <h2>&#9656;  India Post Gramin Dak Sevak (GDS) Recruitment</h2>
+               <h2>&#9656;  India Post Postal Assistant and Sorting Assistant Recruitment</h2>
+               <h2>&#9656;  India Post MTS Recruitment</h2>
+          </div>
+          <div class="topic">
+            <h2> Postal Services Exams</h2>
+         </div>
+         <div class="content">
+               <h2>&#9656;  India Post Gramin Dak Sevak (GDS) Recruitment</h2>
+               <h2>&#9656;  India Post Postal Assistant and Sorting Assistant Recruitment</h2>
+               <h2>&#9656;  India Post MTS Recruitment</h2>
+          </div>
+          <div class="topic">
+            <h2> State Level Recruitment Exams</h2>
+         </div>
+         <div class="content">
+               <h2>&#9656;  State Police Constable Exams</h2>
+               <h2>&#9656;  State Sub-Inspector Exams</h2>
+               <h2>&#9656;  State Health Department Exams</h2>
+               <h2>&#9656;  State Agricultural Department Exams</h2>
+               <h2>&#9656;  State Forest Guard Exams</h2>
+          </div>
+</div>
+</body>
+</html>
+ 

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What study what job</title>
+    {% load static%}
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    
+</head>
+<style>
+  .body{
+    font-family: "Trirong", serif;
+  }
+    .one{
+        
+        top: 0px;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        background-color: darkslategray;
+        color: white;
+        position: fixed;
+        width: 1360px;
+        table-layout: fixed;
+    }
+
+    .f {
+      margin-left: 1240px;
+    }
+
+    .f{
+        display: block;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+        font-size: large;
+}
+
+.one a:hover {
+  
+  color: white;
+  
+}
+.t{
+  margin-left: 10px;
+}
+.second{
+  height: 100%;
+  width: 270px;
+  position: fixed;
+  z-index: 1;
+  top: 60px;
+  padding-top: 70px;
+  left: 0;
+  background-color: gainsboro;
+  overflow-x: hidden
+
+}
+body{
+  font-family: "Lato", sans-serif;
+}
+.second a{
+  padding: 20px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+  table-layout: fixed;
+   display: inline-flex;
+
+}
+.second button{
+ 
+ border-bottom-right-radius: 20px;
+}
+.second a:hover{
+  color:grey;
+}
+.study{
+  text-align: right;
+}
+.study{
+  margin: left;/* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+.center{
+  margin-left: 300px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  margin-top: 120px;
+  letter-spacing: 7px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.head{
+  margin-left: 280px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-top: 55px;
+  font-size: large;
+  background-color: beige;
+ 
+}
+
+.fir{
+  
+  margin-left: 330px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-top: 35px;
+  font-size: large;
+  text-align: initial;
+  line-height: 35px;
+}
+  .firs{
+   margin-left: 330px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-top: 35px;
+  font-size: large;
+  text-align: initial; 
+  }  
+  #flow a {
+  position: absolute;
+  margin-left:260px;
+  left: -117px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 160px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  position: fixed;
+}
+#flow a:hover {
+  left: 0;
+}
+#physics{
+top: 200px;
+background-color:  darkslategray;
+}
+#chemistry{
+top: 280px;
+background-color: darkslategray;
+
+}
+#Biology{
+top: 360px;
+background-color: darkslategray;
+
+}
+#Mathematics{
+top: 440px;
+background-color:  darkslategray;
+
+}
+#Computer{
+top: 520px;
+background-color:  darkslategray;
+
+}
+.fi{
+  margin-left: 330px;
+  margin-top: 75px;
+}
+.button{
+  width: 150px;
+  background-color: darkslategray ;
+  color:white;
+  padding: 0px;
+  text-align: center;
+  margin-left: 800px;
+  font-size: 20px;
+  border-radius: 8px;
+  height: auto;
+  border: none;
+  display: inline-block;
+}
+.top{
+  margin-left: 0px;
+  margin-top: 5px;
+}
+</style>
+</head>
+<body >
+  
+<!--top style-->
+      <ul class="one">
+        <li class="f"><a href="home">Home</a></li>
+      </ul>
+<!-- side-->
+      <ul class="second">
+        <a href="Science">Science </a><hr>
+        <a href="Commerce">Commerce </a><hr>
+        <a href="arts">Humanities/Arts </a><hr>
+        <a href="Professional_Courses">Professional </a>
+      </ul>
+<div id="flow">
+        <a href="physics" id="physics">physics</a>
+        <a href="chemistry" id="chemistry">chemistry</a>
+        <a href="Biology" id="Biology">Biology</a>
+        <a href="Mathematics" id="Mathematics">Mathematics</a>
+        <a href="Computer" id="Computer">Computer</a>
+</div>
+<div class="top">
+      <h1 id="top"></h1>
+      <h1><a href ="#bottom"></a></h1> 
+</div>
+<div class="center">
+      <h1>DEPARTMENT OF CHEMISTRY</h1><hr>
+</div>
+<div class="fi">
+      <h3><P><dd class="p">
+          Studying chemistry opens up a wide range of career opportunities across various industries. 
+          Here are some common areas of study within chemistry and the corresponding job prospects</dd></P></h3>
+</div>
+<div class="fir">
+      <h2 ><strong>Analytical Chemistry:</strong></h2>
+       <ul>
+        <h3><li>Analytical chemists focus on analyzing substances to determine their composition and properties. They work in laboratories and industries such as pharmaceuticals, environmental monitoring, and food and beverage production.</li></h3>
+       </ul>
+  <h2 ><strong>Organic Chemistry:</strong></h2>
+       <ul>
+        <h3><li>Organic chemists study the structure, properties, and reactions of organic compounds, which are carbon-based molecules. They work in pharmaceuticals, petrochemicals, materials science, and the development of new products.</li></h3>
+       </ul>
+  <h2 ><strong>Inorganic Chemistry:</strong></h2>
+       <ul>
+        <h3><li>Inorganic chemists study compounds that do not contain carbon, such as metals, minerals, and salts. They work in industries such as metallurgy, ceramics, semiconductors, and environmental science.</li></h3>
+       </ul>
+  <h2 ><strong>Physical Chemistry:</strong></h2>
+       <ul>
+        <h3><li>Physical chemists investigate the fundamental principles governing chemical processes and reactions, focusing on areas like thermodynamics, kinetics, and quantum mechanics. They work in research and development, academia, and industries such as energy and materials science.</li></h3>
+       </ul>
+  <h2 ><strong>Biochemistry:</strong></h2>
+       <ul>
+        <h3><li>Biochemists study the chemical processes and molecules involved in living organisms, including proteins, enzymes, and DNA. They work in pharmaceuticals, biotechnology, healthcare, and academic research.</li></h3>
+       </ul>
+  <h2 ><strong>Environmental Chemistry:</strong></h2>
+       <ul >
+        <h3><li>Environmental chemists study the impact of chemical substances on the environment and develop methods to mitigate pollution and preserve ecosystems. They work in environmental consulting firms, government agencies, and research institutions.</li></h3>
+       </ul>
+  <h2 ><strong>Materials Chemistry:</strong></h2>
+       <ul >
+        <h3><li>Materials chemists research and develop new materials with specific properties for applications in electronics, construction, healthcare, and renewable energy. They work in industries such as nanotechnology, polymers, and ceramics.</li></h3>
+       </ul>
+  <h2 ><strong>Forensic Chemistry:</strong></h2>
+       <ul >
+        <h3><li>Forensic chemists analyze evidence from crime scenes, such as drugs, toxins, and trace elements, to assist law enforcement agencies in solving crimes. They work in forensic laboratories, government agencies, and law enforcement.</li></h3>
+       </ul>
+  <h2 ><strong>Pharmaceutical Chemistry:</strong></h2>
+       <ul >
+        <h3><li>Pharmaceutical chemists research and develop new drugs and medicines, from the discovery of active compounds to formulation and testing. They work in pharmaceutical companies, academic research institutions, and regulatory agencies.</li></h3>
+       </ul>
+  <h2><strong>Engineering:</strong> </h2>
+       <ul >
+        <h3><li>While not strictly a branch of chemistry, chemical engineering involves applying chemical principles to design and optimize processes for producing chemicals, fuels, materials, and pharmaceuticals. Chemical engineers work in a wide range of industries, including manufacturing, energy, and biotechnology.</li></h3>
+       </ul>
+</div>
+<div class="firs"> 
+    <h3><strong> Are just a few examples of the diverse career paths available to individuals with a background in chemistry. Depending on their interests, skills, and education level, chemists can pursue careers in research, development, manufacturing, quality control, education, consulting, and more.</strong></h3>
+<div class="button">
+      <a href="#top">Go to top</a>
+<div id="bottom"></div>
+</div>
+</body>
+</html>
+ 

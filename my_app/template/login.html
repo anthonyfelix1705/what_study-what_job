@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+    body{
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+    }
+    .login-container{
+      max-width: 400px;
+      margin: 100px auto;
+      padding: 30px;
+      border-radius: 50px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .login-container h1{
+      text-align: center;
+    }
+    .login-container input[type="text"],
+    .login-container input[type="password"] {
+      width: 100%;
+      margin:8px;
+      padding: 10px 0 ;
+      border: 1px solid #ccccccbb;
+      border-radius: 10px;
+      box-sizing: border-box;
+    }
+    .login-container input[type="submit"] {
+      width: 400px;
+      margin: 10px;
+      padding: 8px 0;
+      background-color: green;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      height: 40px;
+
+    }
+    .login-container a{
+      text-align: center;
+      margin: 150px;
+    }
+   
+  </style>
+</head>
+<body>
+  <div class="login-container" >
+    <h1>Login</h1>
+    <form action="home"  autocomplete="off">
+      <label  for="uname">Username</label><br>
+      <input title="Username" type="text" id="uname"><br>
+      <label for="password">Password</label><br>
+      <input title="password" type="password" id="password">
+      <input title="Login" type="submit" value="Login">
+      <center><a href="registeration.html" >signup</a></center>
+    </form>
+  </div>
+</body>
+</html>

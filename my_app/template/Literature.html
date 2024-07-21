@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What study what job</title>
+    {% load static%}
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    
+</head>
+<style>
+  .body{
+    font-family: "Trirong", serif;
+  }
+    .one{
+        
+        top: 0px;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        background-color: darkslategray;
+        color: white;
+        position: fixed;
+        width: 1360px;
+        table-layout: fixed;
+    }
+
+    .f {
+      margin-left: 1240px;
+    }
+
+    .f{
+      
+        display: block;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+        font-size: large;
+}
+
+.one a:hover {
+  
+  color: white;
+  
+}
+.t{
+  margin-left: 10px;
+}
+.second{
+  height: 100%;
+  width: 270px;
+  position: fixed;
+  z-index: 1;
+  top: 60px;
+  padding-top: 70px;
+  left: 0;
+  background-color: gainsboro;
+  overflow-x: hidden
+
+}
+body{
+  font-family: "Lato", sans-serif;
+}
+.second a{
+  padding: 20px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+  table-layout: fixed;
+   display: inline-flex;
+
+}
+.second button{
+ 
+ border-bottom-right-radius: 20px;
+}
+.second a:hover{
+  color:grey;
+}
+.study{
+  text-align: right;
+}
+.study{
+  margin: left;/* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+.center{
+  margin-left: 300px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  margin-top: 120px;
+  letter-spacing: 7px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.head{
+  margin-left: 280px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-top: 55px;
+  font-size: large;
+  background-color: beige;
+ 
+}
+#flow a {
+  position: absolute;
+  margin-left:260px;
+  left: -117px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 160px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  position: fixed;
+ 
+}
+#flow a:hover {
+  left: 0;
+}
+#Geography{
+top: 177px;
+background-color:  darkslategray;
+}
+#Language{
+top: 240px;
+background-color: darkslategray;
+}
+#History{
+top: 304px;
+background-color:  darkslategray}
+#Psychology{
+top: 367px;
+background-color:  darkslategray;
+
+}
+#Sociology{
+top: 430px;
+background-color:  darkslategray;
+
+}
+#Literature{
+top: 494px;
+background-color:  darkslategray;
+
+}
+#Political{
+top: 558px;
+background-color: darkslategray;
+}
+
+.h{
+  margin-top: 40px;
+  margin-left: 305px;
+  
+}
+.fir{
+  
+  margin-left: 330px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-top: 35px;
+  font-size: large;
+  text-align: initial;
+  line-height: 35px;
+}
+.gray{
+  color: #201e1e;
+}
+.fi{
+  margin-left: 330px;
+  margin-top: 75px;
+}
+.firs{
+   margin-left: 330px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  line-height: 100px;
+  margin-top: 35px;
+  font-size: large;
+  text-align: initial; 
+  
+  }  
+  .button{
+  width: 150px;
+  background-color: darkslategray ;
+  color:white;
+  padding: 0px;
+  text-align: center;
+  margin-left: 1100px;
+  font-size: 20px;
+  border-radius: 8px;
+  height: auto;
+  border: none;
+  display: inline-block;
+
+}
+.top{
+  margin-left: 0px;
+  margin-top: 5px;
+}
+</style>
+</head>
+<body >
+  
+  <!--top style-->
+    <ul class="one">
+      
+        <li class="f"><a href='home'>Home</a></li>
+     </ul>
+      <!-- side-->
+      <ul class="second">
+        <a href="Science">Science </a><hr>
+        <a href="Commerce">Commerce </a><hr>
+        <a href="arts">Humanities/Arts </a><hr>
+        <a href="Professional">Professional </a>
+      </ul>
+      <div id="flow">
+        <a href="Geography" id="Geography">Geography</a>
+        <a href="History" id="History">History</a>
+        <a href="Language" id="Language">Language</a>
+        <a href="Psychology" id="Psychology">Psychology</a>
+        <a href="Sociology" id="Sociology">Sociology</a>
+        <a href="Literature" id="Literature">Literature</a>
+        <a href="Political " id="Political">Political</a>
+       </div>
+<!--star the page-->
+<div class="button">
+  <h1 id="top"></h1>
+  <h1><a href ="#bottom"></a></h1> 
+</div>
+<div class="center">
+    <h1>DEPARTMENT OF LITERATURE<hr>
+</div>
+  <div class="fi">
+      
+      <h3><P><dd class="p">
+        Building a successful future in the literature department as a student involves a blend of academic dedication, practical experience, and strategic planning. Here are some key steps to consider:</dd></P></h3>
+  </div>
+  <div class="fir">
+    <h1 class="gray"><strong>Academic Excellence</strong></h1>
+    <h2 ><strong>Coursework</strong></h2>
+      <ul>
+       <h3><li> Take a variety of literature courses to familiarize yourself with different genres, periods, and critical approaches. This breadth of knowledge is crucial.</li></h3>
+      </ul>
+    <h2 ><strong>Reading and Analysis:</strong></h2>
+      <ul>
+        <h3><li>Develop strong analytical skills by reading widely and critically. Engage deeply with texts, focusing on themes, narrative techniques, and historical context.
+      </li></h3>
+      </ul>
+    <h2 ><strong>Writing:</strong></h2>
+       <ul>
+        <h3><li>Hone your writing skills. Literature students must be able to articulate their thoughts clearly and persuasively. Practice writing essays, research papers, and creative pieces.
+       </li></h3>
+       </ul>
+    <h2 ><strong>Theory:</strong></h2>
+        <ul>
+          <h3><li>Study literary theory to understand the different lenses through which texts can be analyzed. This will enhance your analytical capabilities.
+        </li></h3></ul>
+  <h1 class="gray"><strong>Practical Experience</strong></h1>
+        <h2 ><strong>Internships:</strong></h2>
+        <ul>
+          <h3><li> Look for internships related to literature, such as at publishing houses, literary magazines, libraries, or cultural institutions. These experiences provide practical insights and professional connections.</li>
+         </ul>
+  <h2 ><strong>Creative Writing:</strong></h2>
+      <ul>
+        <h3><li>If you’re interested in creative writing, participate in workshops, write regularly, and submit your work to literary journals or competitions.
+      </li></h3>
+      </ul>
+  <h2 ><strong>Research Projects:</strong></h2>
+      <ul>
+        <h3><li> Engage in independent research projects or assist faculty with their research to gain hands-on experience in scholarly work.
+      </li></ul>
+  <h1 class="gray"><strong>Strategic Planning</strong></h1>
+  <h2 ><strong>Networking:</strong></h2>
+       <ul>
+        <h3><li>Attend literary events, conferences, and workshops. Engage with visiting writers and scholars to build a network of professional contacts.</li>
+      </ul>
+  <h2 ><strong>Mentorship:</strong></h2>
+      <ul>
+        <h3><li>Seek out mentors among your professors who can offer guidance, support, and recommendation letters.
+      </li>
+      </ul>
+  <h2 ><strong>Graduate Studies:</strong></h2>
+      <ul>
+        <h3><li> If you aim for an academic career, plan for graduate studies by maintaining a strong GPA, gaining research experience, and preparing for any required standardized tests (like the GRE).
+          </li></h3></ul>
+<h1 class="gray"><strong>Extracurricular Activities</strong></h1>
+<h2 ><strong>Literary Clubs: </strong></h2>
+    <ul>
+      <h3><li> Join or establish a literary club at your university to connect with peers who share your passion for literature.
+    </li></h3></ul>
+<h2 ><strong>Publications:</strong></h2>
+    <ul>
+      <h3><li> Write for campus publications or start a literary blog to showcase your writing and critical analysis.</li></h3>
+    </ul>
+<h2 ><strong>Readings and Workshops:</strong></h2>
+    <ul>
+      <h3><li>Participate in or organize poetry readings, book clubs, and writing workshops.</li></h3></ul>
+    <h1 class="gray"><strong>Long-term Goals</strong></h1>
+<h2 ><strong>Specialization:</strong></h2>
+    <ul>
+      <h3><li> Determine your area of specialization early (e.g., Victorian literature, contemporary poetry, postcolonial studies) and focus your coursework and research in that direction.
+    </li></h3>
+    </ul>
+<h2 ><strong>Publications:</strong></h2>
+    <ul>
+    <h3><li>Aim to publish your scholarly articles in academic journals or present at conferences to build your academic credentials.
+    </li></h3>
+    </ul>
+    <h3><h2 ><strong>Teaching Experience:</strong></h2>
+    <ul>
+    <li>Gain teaching experience by working as a teaching assistant or tutor. Teaching experience is crucial if you’re planning to pursue a career in academia.
+    </li></h3></ul>
+<h1 class="gray"><strong>Digital and Public Engagement</strong></h1>
+  <h2 ><strong>Digital Humanities:</strong></h2>
+  <ul>
+    <h3><li> Learn about digital humanities projects, which combine literature and digital technology. This can open up new avenues for research and employment.
+                           
+  </li></h3>
+  </ul>
+<h2 ><strong>Public Engagement:</strong></h2>
+   <ul>
+    <h3><li>Engage with the wider community through public lectures, reading groups, or community writing projects. This helps to build a broader audience for your work and enhances your communication skills.
+   </li></h3>
+   </ul>
+<h1 class="gray"><strong>Continuous Learning and Adaptability</strong></h1>
+<h2 ><strong>Stay Updated: </strong></h2>
+   <ul>
+    <h3><li> Keep up with the latest research, trends, and debates in the field of literature. Subscribe to literary journals, follow relevant blogs, and participate in online forums.
+  </li></h3>
+  </ul>
+<h2 ><strong>Adaptability:</strong></h2>
+  <ul>
+    <h3><li>Be open to exploring interdisciplinary approaches and new methodologies. The field of literature is continually evolving, and adaptability is key to staying relevant.
+  </li></h3>
+  </ul>
+</div>
+   
+    <div class="button">
+      <a href="#top">Go to top</a>
+      <div id="bottom"></div>
+</div>
+</body>
+</html>
+ 

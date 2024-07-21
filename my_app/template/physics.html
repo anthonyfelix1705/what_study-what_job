@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What study what job</title>
+    {% load static%}
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    
+</head>
+<style>
+  .body{
+    font-family: "Trirong", serif;
+  }
+    .one{
+        
+        top: 0px;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        background-color: darkslategray;
+        color: white;
+        position: fixed;
+        width: 1360px;
+        table-layout: fixed;
+    }
+
+    .f {
+      margin-left: 1240px;
+    }
+
+    .f{
+        display: block;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+        font-size: large;
+}
+
+.one a:hover {
+  
+  color: white;
+  
+}
+.t{
+  margin-left: 10px;
+}
+.second{
+  height: 100%;
+  width: 270px;
+  position: fixed;
+  z-index: 1;
+  top: 60px;
+  padding-top: 70px;
+  left: 0;
+  background-color: gainsboro;
+  overflow-x: hidden
+
+}
+body{
+  font-family: "Lato", sans-serif;
+}
+.second a{
+  padding: 20px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+  table-layout: fixed;
+   display: inline-flex;
+
+}
+.second button{
+ 
+ border-bottom-right-radius: 20px;
+}
+.second a:hover{
+  color:grey;
+}
+.study{
+  text-align: right;
+}
+.study{
+  margin: left;/* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+.center{
+  margin-left: 300px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  margin-top: 120px;
+  letter-spacing: 7px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+ 
+
+.fi{
+  margin-left: 330px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-top: 75px;
+  font-size: large;
+  text-align: initial;
+  
+}
+.fir{
+  
+  margin-left: 330px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-top: 35px;
+  font-size: large;
+  text-align: initial;
+  line-height: 35px;
+}
+
+.colors{
+  letter-spacing: 3px;
+  color: darkslategrey;
+}
+  .firs{
+    margin-left: 330px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-top: 35px;
+  font-size: large;
+  text-align: initial; 
+  }
+  #flow a {
+  position: absolute;
+  margin-left:260px;
+  left: -117px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 160px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+ position: fixed;
+}
+#flow a:hover {
+  left: 0;
+}
+#physics{
+top: 200px;
+background-color: darkslategray;
+}
+#chemistry{
+top: 280px;
+background-color: darkslategray;
+
+}
+#Biology{
+top: 360px;
+background-color:  darkslategray;
+
+}
+#Mathematics{
+top: 440px;
+background-color:  darkslategray;
+
+}
+#Computer{
+top: 520px;
+background-color:  darkslategray;
+}  
+.button{
+  width: 150px;
+  background-color: darkslategray ;
+  color:white;
+  padding: 0px;
+  text-align: center;
+  margin-left: 800px;
+  font-size: 20px;
+  border-radius: 8px;
+  height: auto;
+  border: none;
+  display: inline-block;
+}
+.top{
+  margin-left: 0px;
+  margin-top: 5px;
+}
+
+</style>
+</head>
+<body >
+  
+<!--top style-->
+    <ul class="one">
+      
+        <li class="f"><a href="home">Home</a></li>
+    </ul>
+<!-- side-->
+    <ul class="second">
+      <a href="Science">Science </a><hr>
+      <a href="Commerce">Commerce </a><hr>
+      <a href="arts">Humanities/Arts </a><hr>
+      <a href="Professional">Professional </a>
+    </ul>
+<div id="flow">
+      <a href="physics" id="physics">physics</a>
+      <a href="chemistry" id="chemistry">chemistry</a>
+      <a href="Biology" id="Biology">Biology</a>
+      <a href="Mathematics" id="Mathematics">Mathematics</a>
+      <a href="Computer" id="Computer">Computer</a>
+</div>
+<div class="top">
+      <h1 id="top"></h1>
+      <h1><a href ="#bottom"></a></h1> 
+</div>
+<div class="center">
+      <h1>DEPARTMENT OF PHYSICS</h1><hr>
+</div>
+      
+<div class="fi">
+      <h3><P><dd class="p">Physics, simply put, is the study of how the universe works. It explores 
+          the fundamental laws and principles that govern the behavior of matter, energy, 
+          space, and time. But let's break it down a bit further:</dd></P></h3>
+</div>
+<div class="fir">
+      <h2 class="color"> <strong>Nature:</strong></h2>
+        <ul>
+          <h3><li>Physics helps us understand the natural world around us, from the smallest subatomic particles to the vastness of space.</li></h3>
+        </ul>
+      <h2 class="color"><strong>Fundamental Concepts:</strong></h2>
+         <ul>
+          <h3><li>It deals with fundamental concepts like motion, forces, energy, and matter. For example, why do objects fall to the ground? What makes things move? How does electricity work?</li></h3>
+         </ul>
+      <h2 class="color"><strong>Laws and Theories:</strong></h2>
+         <ul>
+          <h3><li>Physics is built upon laws and theories that describe the behavior of physical systems. Newton's laws of motion, Einstein's theory of relativity, and the laws of thermodynamics are some well-known examples.</li></h3>
+         </ul>
+      <h2 class="color"><strong>Experimentation and Observation:</strong></h2>
+         <ul>
+          <h3><li>Physics relies heavily on experimentation and observation. Scientists conduct experiments to test hypotheses and theories, and observations provide valuable data to support or refute scientific ideas.</li></h3>
+         </ul>
+      <h2 class="color"><strong>Mathematics:</strong></h2>
+         <ul>
+          <h3><li>Mathematics is the language of physics. It provides the tools for describing and predicting the behavior of physical systems. Equations and formulas are used to quantify relationships between various physical quantities.</li></h3>
+         </ul>
+      <h2 class="color"><strong>Applications:</strong></h2>
+         <ul >
+          <h3><li>Physics has countless applications in our everyday lives, from technology and engineering to medicine and environmental science. Understanding the principles of physics enables us to develop new technologies and solve real-world problems.</li></h3>
+         </ul>
+</div>
+<div class="firs"> 
+      <h3><strong> Essence, physics is all about asking questions, making observations, and using logical reasoning and mathematical tools to uncover the underlying principles of the universe. It's a fascinating journey of discovery that opens up new perspectives on the world we live in.</strong></h3>
+<div class="button">
+        <a href="#top">Go to top</a>
+<div id="bottom"></div>
+</div>
+</div>
+     
+</body>
+</html>
+ 

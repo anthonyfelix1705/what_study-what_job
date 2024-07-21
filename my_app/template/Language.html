@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What study what job</title>
+    {% load static%}
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    
+</head>
+<style>
+  .body{
+    font-family: "Trirong", serif;
+  }
+    .one{
+        
+        top: 0px;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        background-color: darkslategray;
+        color: white;
+        position: fixed;
+        width: 1360px;
+        table-layout: fixed;
+    }
+
+    .f {
+      margin-left: 1240px;
+    }
+
+    .f{
+      
+        display: block;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+        font-size: large;
+}
+
+.one a:hover {
+  
+  color: white;
+  
+}
+.t{
+  margin-left: 10px;
+}
+.second{
+  height: 100%;
+  width: 270px;
+  position: fixed;
+  z-index: 1;
+  top: 60px;
+  padding-top: 70px;
+  left: 0;
+  background-color: gainsboro;
+  overflow-x: hidden
+
+}
+body{
+  font-family: "Lato", sans-serif;
+}
+.second a{
+  padding: 20px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+  table-layout: fixed;
+   display: inline-flex;
+
+}
+.second button{
+ 
+ border-bottom-right-radius: 20px;
+}
+.second a:hover{
+  color:grey;
+}
+.study{
+  text-align: right;
+}
+.study{
+  margin: left;/* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+.center{
+  margin-left: 300px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  margin-top: 120px;
+  letter-spacing: 7px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.head{
+  margin-left: 280px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-top: 55px;
+  font-size: large;
+  background-color: beige;
+ 
+}
+#flow a {
+  position: absolute;
+  margin-left:260px;
+  left: -117px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 160px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  position: fixed;
+ 
+}
+#flow a:hover {
+  left: 0;
+}
+#Geography{
+top: 177px;
+background-color:  darkslategray;
+}
+#Language{
+top: 240px;
+background-color: darkslategray;
+}
+#History{
+top: 304px;
+background-color:  darkslategray}
+#Psychology{
+top: 367px;
+background-color:  darkslategray;
+
+}
+#Sociology{
+top: 430px;
+background-color:  darkslategray;
+
+}
+#Literature{
+top: 494px;
+background-color:  darkslategray;
+
+}
+#Political{
+top: 558px;
+background-color: darkslategray;
+}
+.fir{
+  
+  margin-left: 330px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-top: 35px;
+  font-size: large;
+  text-align: initial;
+  line-height: 35px;
+}
+.gray{
+  color: #201e1e;
+}
+.fi{
+  margin-left: 330px;
+  margin-top: 75px;
+}
+.firs{
+   margin-left: 330px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  line-height: 100px;
+  margin-top: 35px;
+  font-size: large;
+  text-align: initial; 
+  
+  }  
+  .button{
+    margin-top: 40px;
+    
+  }
+  .button{
+    color: #f44336;
+  }
+  .button{
+  width: 150px;
+  background-color: darkslategray ;
+  color:white;
+  padding: 0px;
+  text-align: center;
+  margin-left: 1100px;
+  font-size: 20px;
+  border-radius: 8px;
+  height: auto;
+  border: none;
+  display: inline-block;
+
+}
+.top{
+  margin-left: 0px;
+  margin-top: 5px;
+}
+</style>
+</head>
+<body >
+  
+  <!--top style-->
+    <ul class="one">
+      
+        <li class="f"><a href='home'>Home</a></li>
+     </ul>
+      <!-- side-->
+      <ul class="second">
+        <a href="Science">Science </a><hr>
+        <a href="Commerce">Commerce </a><hr>
+        <a href="arts">Humanities/Arts </a><hr>
+        <a href="Professional">Professional </a>
+      </ul>
+      <div id="flow">
+        <a href="Geography" id="Geography">Geography</a>
+        <a href="History" id="History">History</a>
+        <a href="Language" id="Language">Language</a>
+        <a href="Psychology" id="Psychology">Psychology</a>
+        <a href="Sociology" id="Sociology">Sociology</a>
+        <a href="Literature" id="Literature">Literature</a>
+        <a href="Political " id="Political">Political</a>
+       </div>
+<!--star the page-->
+<div class="top">
+  <h1 id="top"></h1>
+  <h1><a href ="#bottom"></a></h1></div>
+    <div class="center">
+          <h1>DEPARTMENT OF LANGUAGE</h1><hr>
+    </div>
+    <div class="fi">
+       
+    
+      <h3><P><dd class="p">
+        Pursuing a Bachelor of Arts (B.A.) in Tamil offers numerous opportunities for students passionate about the language, its literature, and culture. Here's a comprehensive guide on how students can shape their future with a B.A. in Tamil:
+      </dd></P></h3>
+    </div>
+    <div class="fir">
+      <h1 class="gray"><strong> 1.Academic Pathway and Curriculum:</strong></h1>
+      <h2 ><strong>Core Subjects:</strong></h2>
+        <ul>
+        <h3><li> Typically include Tamil literature, poetry, prose, drama, linguistics, history of Tamil language, and cultural studies.
+        </li></h3>
+        </ul>
+      <h2 ><strong>Electives: </strong></h2>
+        <ul>
+          <h3><li>May offer courses in translation studies, comparative literature, and other regional languages.
+        </li></h3>
+        </ul>
+      <h2 ><strong>Skill Development:</strong></h2>
+         <ul>
+          <h3><li>Focus on critical thinking, analytical skills, and proficiency in reading, writing, and speaking Tamil.
+         </li></h3>
+    
+    </div>
+    <div class="fir">
+      <h1 class="gray"><strong>2.Career Opportunities:</strong></h1>
+      <h2 ><strong>Teaching and Academia:</strong></h2>
+      <h2 ><strong>School Teacher:</strong></h2>
+         <ul>
+          <h3><li> Teaching Tamil in schools after obtaining a B.Ed. degree.
+          </li></h3>
+         </ul>
+      <h2 ><strong>College Lecturer/Professor: </strong></h2>
+        <ul>
+          <h3><li>Teaching positions in colleges and universities, often requiring a master’s degree (M.A. Tamil) and a Ph.D.
+          </li></h3>
+        </ul>
+      <h2 ><strong>Researcher:</strong></h2>
+         <ul>
+          <h3><li> Engaging in linguistic and literary research, contributing to academic journals and conferences.
+          </li></h3></ul>
+      <h2><strong> Translation and Interpretation</strong></h2>
+      <h2 ><strong>Professional Translator: </strong></h2>
+           <ul>
+            <h3><li>Translating documents, books, and media content from Tamil to other languages and vice versa.
+            </li></h3>
+           </ul>
+      <h2 ><strong>Interpreter:</strong></h2>
+           <ul>
+            <h3><li>Working in multilingual settings, including government offices, courts, and international organizations.
+            </li></h3>
+           </ul>
+      <h2><strong >Content Creation and Media:</strong></h2>
+           <ul>
+              <h3><strong>Writer/Author:</strong>Writing novels, poetry, essays, and other literary works in Tamil.</h3>
+              <h3><strong>Journalist:</strong>Reporting for Tamil newspapers, magazines, television channels, and digital media.</h3>
+              <h3><strong>Content Creator: </strong>Developing content for websites, blogs, and social media platforms.</h3>
+          </ul>
+      <h2><strong>Government and Public Sector:</strong></h2>
+            <ul>
+              <h3><strong>Civil Services:</strong>Appearing for exams like UPSC, TNPSC where Tamil proficiency is advantageous.</h3>
+              <h3><strong>Cultural Officer: </strong> Roles in cultural departments, managing events and programs that promote Tamil heritage.</h3>
+          </ul>
+      <h2><strong>Tourism and Hospitality:</strong></h2>
+            <ul>
+               <h3><strong>Tour Guide: </strong>Leading tours and providing insights into Tamil Nadu's cultural and historical sites.</h3>
+               <h3><strong>Travel Consultant:</strong> Assisting Tamil-speaking tourists and creating travel content in Tamil.</h3>
+          </ul>
+      <h2><strong>Corporate Sector:</strong></h2>
+          <ul>
+              <h3><strong>Language Specialist:</strong> Roles in customer service, marketing, and localization departments of multinational companies.</h3>
+              <h3><strong>Human Resources: </strong> Managing recruitment and training for Tamil-speaking regions.</h3>
+        </ul>
+    </div>
+    <div class="fir">
+      <h1 class="gray"><strong> 3. Further Education and Specialization</strong></h1>
+            <ul>
+              <h3><strong>M.A. in Tamil:</strong> Specializing further in Tamil literature, linguistics, or folklore.</h3>
+              <h3><strong>Ph.D. in Tamil:  </strong> Engaging in advanced research and academic career.</h3>
+              <h3><strong>Diploma/Certificate Courses:</strong> Additional qualifications in translation, journalism, or digital content creation.</h3>
+            </ul>
+    </div>
+    <div class="fir">
+      <h1 class="gray"><strong> 4. Skill Enhancement</strong></h1>
+          <ul>
+             <h3><strong>Technical Skills:</strong>  Learning software tools for translation, digital publishing, and content management.</h3>
+             <h3><strong>Soft Skills:</strong> Improving communication, presentation, and public speaking skills.</h3>
+             <h3><strong>Language Proficiency:</strong>Attending workshops and language labs to enhance proficiency.
+             </h3>
+        </ul>
+    </div>
+    <div class="fir">
+      <h1 class="gray"><strong> 5. Networking and Professional Development</strong></h1>
+          <ul>
+             <h3><strong>Literary Societies and Clubs:</strong>Joining Tamil literary societies, book clubs, and cultural organizations.</h3>
+             <h3><strong>Conferences and Seminars:</strong> Attending and presenting at academic and literary conferences.</h3>
+             <h3><strong>Professional Associations:</strong>Joining associations for Tamil writers, translators, and educators.
+             </h3>
+        </ul>
+    </div>
+    <div class="fir">
+      <h1 class="gray"><strong> 6. Cultural and Community Engagement</strong></h1>
+        <ul>
+          <h3><strong>Cultural Events:</strong>Participating in and organizing Tamil cultural festivals, literary meets, and theatrical performances.</h3>
+          <h3><strong>Community Service:</strong> Attending and presenting at academic and literary conferences.</h3>
+      </ul>
+    </div>
+    <div class="fir">
+      <h1 class="gray"><strong>7. Digital and Online Platforms</strong></h1>
+        <ul>
+          <h3><strong>Blogging and Vlogging: </strong>Creating content related to Tamil literature, culture, and language learning on YouTube, blogs, or social media.</h3>
+          <h3><strong>Online Tutoring: </strong>Offering Tamil language tutoring services through online platforms.</h3>
+        </ul>
+  </div>
+  <div class="fir">
+    <h1 class="gray"><strong>8. Job Search and Applications</strong></h1>
+        <ul>
+          <h3><strong>Resume and Portfolio:</strong>Building a strong resume highlighting language skills, academic achievements, and relevant experience.</h3>
+          <h3><strong>Job Portals and Networking:</strong> Utilizing job portals, professional networks, and social media to find job opportunities.</h3>
+       </ul>
+  </div>
+       <div class="button">
+        <a href="#top">Go to top</a>
+        <div id="bottom"></div>
+  </div>
+</body>
+</html>
+ 

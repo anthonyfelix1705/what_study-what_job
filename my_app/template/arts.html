@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What study what job</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    {% load static%}
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    
+</head>
+<style>
+  .body{
+    font-family: "Trirong", serif;
+  }
+    .one{
+        
+        top: 0px;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        background-color: darkslategray;
+        color: white;
+        position: fixed;
+        width: 1360px;
+        table-layout: fixed;
+    }
+
+    .f {
+      margin-left: 1240px;
+    }
+
+    .f{
+        display: block;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+        font-size: large;
+}
+
+.one a:hover {
+  
+  color: white;
+  
+}
+.t{
+  margin-left: 10px;
+}
+.second{
+  height: 100%;
+  width: 270px;
+  position: fixed;
+  z-index: 1;
+  top: 60px;
+  padding-top: 70px;
+  left: 0;
+  background-color: gainsboro;
+  overflow-x: hidden
+
+}
+body{
+  font-family: "Lato", sans-serif;
+}
+.second a{
+  padding: 20px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+  table-layout: fixed;
+   display: inline-flex;
+
+}
+.second button{
+ 
+ border-bottom-right-radius: 20px;
+}
+.second a:hover{
+  color:grey;
+}
+.study{
+  text-align: right;
+}
+.study{
+  margin: left;/* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+.center{
+  margin-left: 300px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  margin-top: 120px;
+  letter-spacing: 7px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.head{
+  margin-left: 280px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-top: 55px;
+  font-size: large;
+  background-color: beige;
+ 
+}
+
+
+#flow a {
+  position: absolute;
+  margin-left:260px;
+  left: -117px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 160px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  position: fixed;
+ 
+}
+#flow a:hover {
+  left: 0;
+}
+#Geography{
+top: 177px;
+background-color:  darkslategray;
+}
+#Language{
+top: 240px;
+background-color: darkslategray;
+}
+#History{
+top: 304px;
+background-color:  darkslategray}
+#Psychology{
+top: 367px;
+background-color:  darkslategray;
+
+}
+#Sociology{
+top: 430px;
+background-color:  darkslategray;
+
+}
+#Literature{
+top: 494px;
+background-color:  darkslategray;
+
+}
+#Political{
+top: 558px;
+background-color: darkslategray;
+
+}
+
+.h{
+  margin: 1px;
+  width: 800px;
+  height: 230px;
+  margin-top: 60px;
+  padding: 20px;
+  margin-left:430px;
+  background-color: lightgrey;
+  border-radius: 20px;
+}
+#top{
+  color: darkslategray;
+}
+.toptwo{
+letter-spacing: 1px;
+padding: 1px;
+
+}
+.topthree{
+  margin-left: 320px;
+  padding: 5px;
+  letter-spacing: 1px;
+  line-height: 40px;
+}
+.class{
+  line-height: 27px;
+}
+.button{
+  width: 150px;
+  background-color: darkslategray ;
+  color:white;
+  padding: 0px;
+  text-align: center;
+  margin-left: 1100px;
+  font-size: 20px;
+  border-radius: 8px;
+  height: auto;
+  border: none;
+  display: inline-block;
+
+}
+.top{
+  margin-left: 0px;
+  margin-top: 5px;
+}
+
+</style>
+</head>
+<body >
+  
+  <!--top style-->
+    <ul class="one">
+      
+        <li class="f"><a href="home">Home</a></li>
+     </ul>
+      <!-- side-->
+      <ul class="second">
+        <a href="Science">Science </a><hr>
+        <a href="Commerce">Commerce </a><hr>
+        <a href="arts">Humanities/Arts </a><hr>
+        <a href="Professional">Professional </a>
+      </ul>
+      <div class="top">
+        <h1 id="top"></h1>
+        <h1><a href ="#bottom"></a></h1> 
+    </div>
+      <div class="center">
+         <h1><i class="fa-light fa-telescope"></i>DEPARTMENT OF HUMANITIES&ARTS</h1><hr>
+      </div>
+     <div id="flow">
+      <a href="Geography" id="Geography">Geography</a>
+      <a href="History" id="History">History</a>
+      <a href="Language" id="Language">Language</a>
+      <a href="Psychology" id="Psychology">Psychology</a>
+      <a href="Sociology" id="Sociology">Sociology</a>
+      <a href="Literature" id="Literature">Literature</a>
+      <a href="Political " id="Political">Political</a>
+     </div>
+     <div class="h">
+       <h1 id="top">Various Department of Humanities/arts section</h1>
+       <div class="toptwo">
+        <h3>Navigating a future as a student in the humanities and arts department involves a mix of academic exploration, creative practice, and professional development.
+           Here's a guide to help you succeed in these fields and prepare for a fulfilling career:</h3>
+      </div>
+      </div>
+      <div class="topthree">
+        <h1><strong> Humanities:</strong></h1>
+       <h2><strong>1.Explore Different Disciplines: </strong></h2><h3 class="class">Humanities encompass a wide range of fields including history, literature, philosophy, religious studies, languages, cultural studies, and more. Take courses in various disciplines to discover your interests and strengths.</h3>
+       <h2><strong>2.Critical Thinking and Analysis:</strong></h2><h3 class="class">Develop strong critical thinking, reading, and analytical skills. Engage deeply with texts, question assumptions, and learn to construct well-reasoned arguments.</h3>
+       <h2><strong>3.Research Skills:</strong></h2><h3 class="class">Learn research methodologies relevant to your field. Utilize libraries, archives, and online resources to gather and analyze information. Develop the ability to synthesize diverse sources into coherent insights.</h3>
+       <h2><strong>4.Writing and Communication: </strong></h2><h3 class="class">Enhance your writing skills through essays, research papers, and creative writing. Clear and effective communication is crucial in the humanities. Practice presenting your ideas in both written and oral formats.</h3>
+       <h2><strong>5.Engage in Discussions: </strong></h2><h3 class="class">Participate actively in class discussions, seminars, and study groups. Engaging with peers and professors will deepen your understanding and expose you to diverse perspectives.</h3>
+       <h2><strong>6.Cultural Awareness:</strong> </h2><h3 class="class">Expand your cultural awareness by studying different cultures, languages, and historical contexts. This will enrich your understanding of the human experience and enhance your ability to work in diverse environments.</h3>
+       <h2><strong>7.Internships and Volunteering:</strong></h2><h3 class="class">Seek internships, volunteer opportunities, or part-time jobs related to your field of interest. Experience in museums, archives, publishing, education, or cultural organizations can provide practical insights and professional connections.</h3>
+      <h2><strong>8.Professional Development:</strong> </h2><h3 class="class">Attend conferences, workshops, and lectures to stay updated on the latest research and trends in your field. Join professional organizations related to your discipline to network and access resources.      </h3>
+      <h2><strong>9.Consider Graduate Studies: </strong></h2><h3 class="class">Depending on your career goals, consider pursuing a master's or doctoral degree in your chosen field. Advanced degrees can open up opportunities in academia, research, and specialized professional roles.</h3>
+    </div>
+    <div class="topthree">
+      <h1><strong> For Arts:<strong></h1>
+     <h2><strong>1.Develop Your Craft</strong></h2><h3 class="class">Focus on honing your artistic skills, whether in visual arts, performing arts, music, creative writing, or another medium. Take advantage of studio time, practice sessions, and workshops.</h3>
+     <h2><strong>2.Build a Portfolio: </strong></h2><h3 class="class">Create a portfolio of your work to showcase your skills and creativity. This is essential for applying to advanced programs, exhibitions, performances, or job opportunities.</h3>
+     <h2><strong>3.Seek Feedback:</strong></h2><h3 class="class">Regularly seek feedback from peers, instructors, and professionals in your field. Constructive criticism can help you improve and refine your work.</h3>
+     <h2><strong>4.Experiment and Innovate:</strong></h2><h3 class="class">Don't be afraid to experiment with new techniques, styles, and ideas. Innovation and originality are highly valued in the arts.     </h3>
+     <h2><strong>5.Engage with the Arts Community: </strong></h2><h3 class="class">Participate in exhibitions, performances, readings, and other events. Engage with the arts community to build connections, gain exposure, and learn from others.</h3>
+     <h2><strong>6.Internships and Residencies:</strong> </h2><h3 class="class">Apply for internships, residencies, and assistant positions to gain practical experience and mentorship from established artists and organizations.</h3>
+     <h2><strong>7.Marketing and Business Skills:</strong></h2><h3 class="class">Learn basic marketing, business, and entrepreneurial skills to promote your work and manage your career. Understanding how to market yourself and your art can significantly impact your success.</h3>
+    <h2><strong>8.Collaborate:</strong> </h2><h3 class="class">Collaborate with other artists and professionals from different fields. Collaboration can lead to new ideas, projects, and opportunities.</h3>
+    <h2><strong>9.Stay Inspired:</strong></h2><h3 class="class">: Keep your passion for your art alive by staying inspired. Attend performances, visit galleries, read widely, and immerse yourself in diverse artistic experiences.</h3>
+  </div>
+  <div class="topthree">
+    <h1><strong>General Tips:<strong></h1>
+   <h2><strong>1.Time Management: </strong></h2><h3 class="class">Balancing academic work with creative practice or research can be challenging. Use planners, calendars, and time management techniques to stay organized and meet deadlines.</h3>
+   <h2><strong>2.Seek Guidance:</strong></h2><h3 class="class"> Regularly meet with academic advisors and mentors to ensure you are on track with your academic and career goals. They can provide valuable advice and support.   </h3>
+   <h2><strong>3.Leverage Resources: </strong></h2><h3 class="class">Utilize campus resources such as libraries, studios, writing centers, career services, and counseling services to support your academic and personal growth.</h3>
+   <h2><strong>4.Adaptability and Resilience: </strong></h2><h3 class="class">Be adaptable and resilient in the face of challenges and uncertainties. The humanities and arts fields can be competitive and unpredictable, so maintaining a positive and flexible attitude is important.</h3>
+   <h2><strong>5.Lifelong Learning: </strong></h2><h3 class="class">Embrace lifelong learning. Continue to seek new knowledge, skills, and experiences beyond your formal education to stay relevant and inspired in your field.</h3>
+</div>
+<div class="button">
+  <a href="#top">Go to top</a>
+  <div id="bottom"></div>
+</div>
+ </body>
+</html>
+ 

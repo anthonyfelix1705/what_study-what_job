@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What study what job</title>
+    {% load static%}
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    
+</head>
+<style>
+  .body{
+    font-family: "Trirong", serif;
+  }
+    .one{
+        
+        top: 0px;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        background-color: darkslategray;
+        color: white;
+        position: fixed;
+        width: 1360px;
+        table-layout: fixed;
+    }
+
+    .f {
+      margin-left: 1240px;
+    }
+
+    .f{
+        display: block;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+        font-size: large;
+}
+
+.one a:hover {
+  
+  color: white;
+  
+}
+.t{
+  margin-left: 10px;
+}
+.second{
+  height: 100%;
+  width: 270px;
+  position: fixed;
+  z-index: 1;
+  top: 60px;
+  padding-top: 70px;
+  left: 0;
+  background-color: gainsboro;
+  overflow-x: hidden
+
+}
+body{
+  font-family: "Lato", sans-serif;
+}
+.second a{
+  padding: 20px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+  table-layout: fixed;
+   display: inline-flex;
+
+}
+.second button{
+ 
+ border-bottom-right-radius: 20px;
+}
+.second a:hover{
+  color:grey;
+}
+.study{
+  text-align: right;
+}
+.study{
+  margin: left;/* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+.center{
+  margin-left: 300px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  margin-top: 120px;
+  letter-spacing: 7px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.head{
+  margin-left: 280px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-top: 55px;
+  font-size: large;
+  background-color: beige;
+ 
+}
+#flow a {
+  position: absolute;
+  margin-left:260px;
+  left: -117px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 160px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  position: fixed;
+ 
+}
+#flow a:hover {
+  left: 0;
+}
+#Geography{
+top: 177px;
+background-color:  darkslategray;
+}
+#Language{
+top: 240px;
+background-color: darkslategray;
+}
+#History{
+top: 304px;
+background-color:  darkslategray}
+#Psychology{
+top: 367px;
+background-color:  darkslategray;
+
+}
+#Sociology{
+top: 430px;
+background-color:  darkslategray;
+
+}
+#Literature{
+top: 494px;
+background-color:  darkslategray;
+
+}
+#Political{
+top: 558px;
+background-color: darkslategray;
+
+}
+
+.h{
+  margin-top: 40px;
+  margin-left: 305px;
+  
+}
+.fir{
+  
+  margin-left: 330px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-top: 35px;
+  font-size: large;
+  text-align: initial;
+  line-height: 35px;
+}
+.fi{
+  margin-left: 330px;
+  margin-top: 75px;
+}
+.firs{
+   margin-left: 330px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  line-height: 100px;
+  margin-top: 35px;
+  font-size: large;
+  text-align: initial; 
+  
+  }  
+  .button{
+  width: 150px;
+  background-color: darkslategray ;
+  color:white;
+  padding: 0px;
+  text-align: center;
+  margin-left: 1100px;
+  font-size: 20px;
+  border-radius: 8px;
+  height: auto;
+  border: none;
+  display: inline-block;
+
+}
+.top{
+  margin-left: 0px;
+  margin-top: 5px;
+}
+</style>
+</head>
+<body >
+  
+  <!--top style-->
+    <ul class="one">
+      
+        <li class="f"><a href="home">Home</a></li>
+     </ul>
+      <!-- side-->
+      <ul class="second">
+        <a href="Science">Science </a><hr>
+        <a href="Commerce">Commerce </a><hr>
+        <a href="arts">Humanities/Arts </a><hr>
+        <a href="Professional">Professional </a>
+      </ul>
+      <div class="top">
+        <h1 id="top"></h1>
+        <h1><a href ="#bottom"></a></h1> 
+    </div>
+      <div class="center">
+         <h1>DEPARTMENT OF GEOGRAPHY</h1><hr>
+      </div>
+      <div id="flow">
+        <a href="Geography" id="Geography">Geography</a>
+        <a href="History" id="History">History</a>
+        <a href="Language" id="Language">Language</a>
+        <a href="Psychology" id="Psychology">Psychology</a>
+        <a href="Sociology" id="Sociology">Sociology</a>
+        <a href="Literature" id="Literature">Literature</a>
+        <a href="Political " id="Political">Political</a>
+       </div>
+     <div class="fi">
+      <h3><P><dd class="p">
+        Navigating a future as a student in the geography department involves a combination of academic excellence, practical experience, networking, and continuous learning. Here’s a detailed guide to help you succeed in this field and prepare for a rewarding career:
+    </dd></P></h3>
+    </div>
+    <div class="fir">
+    <h1><strong> Excellence:</strong></h1>
+    <h2 ><strong>Master Core Concepts:</strong></h2>
+     <ul>
+      <h3><li> Build a strong foundation in key geographic concepts such as physical geography, human geography, geographic information systems (GIS), cartography, and environmental geography. Understand both the natural processes and human activities that shape the earth’s surface.
+      </li></h3>
+     </ul>
+     <h2 ><strong>Engage in Fieldwork: </strong></h2>
+     <ul>
+      <h3><li>Geography is inherently a field-based discipline. Participate in field trips, excursions, and hands-on projects to gain practical experience. Fieldwork helps you apply classroom knowledge to real-world situations and develop observational and data collection skills.
+      </li></h3>
+     </ul>
+     <h2 ><strong>Develop Technical Skills:</strong></h2>
+     <ul>
+      <h3><li>Gain proficiency in technical tools and software commonly used in geography, such as GIS, remote sensing, spatial analysis, and statistical software. These skills are crucial for data analysis and visualization in geographic research and professional practice.
+      </li></h3>
+     </ul>
+     <h2 ><strong>Interdisciplinary Approach: </strong></h2>
+     <ul>
+      <h3><li>Geography is an interdisciplinary field. Take courses in related areas such as environmental science, urban planning, sociology, economics, and geology to gain a broader perspective and enhance your analytical capabilities.</li></h3>
+     </ul>
+    </div>
+    <div class="fir">
+        <h1><strong> Practical Experience:</strong></h1>
+        <h2 ><strong>Internships and Part-time Jobs: </strong></h2>
+         <ul>
+          <h3><li> Seek internships and part-time jobs with government agencies, environmental organizations, research institutions, urban planning firms, and GIS companies. Practical experience will complement your academic learning and provide valuable industry insights.
+          </li></h3>
+         </ul>
+         <h2 ><strong>Research Projects:  </strong></h2>
+         <ul>
+          <h3><li>Get involved in research projects under the guidance of your professors. This could include independent studies, thesis work, or collaborative research. Research experience will deepen your understanding of geographic concepts and methodologies.
+          </li></h3>
+         </ul>
+         <h2 ><strong>Community Engagement:</strong></h2>
+         <ul>
+          <h3><li>Participate in community projects related to urban planning, environmental conservation, disaster management, and sustainability. This will not only provide practical experience but also help you understand the societal impact of geographic work.
+          </li></h3>
+        
+         </div>
+         <div class="fir">
+            <h1><strong> Networking and Professional Development:</strong></h1>
+            <h2 ><strong>Professional Associations:</strong></h2>
+             <ul>
+              <h3><li>Join professional associations such as the American Association of Geographers (AAG), the Royal Geographical Society (RGS), or regional geographic societies. These organizations provide networking opportunities, access to conferences, and resources for professional development.
+              </li></h3>
+             </ul>
+             <h2 ><strong>Conferences and Workshops:</strong></h2>
+             <ul>
+              <h3><li>Attend conferences, workshops, and seminars to stay updated on the latest research, trends, and technologies in geography. Presenting your research at conferences can also enhance your professional profile and network.
+              </li></h3>
+             </ul>
+             <h2 ><strong>Networking:</strong></h2>
+             <ul>
+              <h3><li>Build a network of peers, professors, and professionals in the field of geography. Engage with them through academic events, social media platforms like LinkedIn, and professional forums. Networking can lead to collaborative opportunities and career guidance.
+              </li></h3>
+            
+             </div>
+             <div class="fir">
+                <h1><strong> Career Planning and Skill Development:</strong></h1>
+                <h2 ><strong>Identify Specializations: </strong></h2>
+                 <ul>
+                  <h3><li>Explore different specializations within geography such as urban geography, climatology, hydrology, political geography, and cultural geography. Identify your interests and tailor your coursework and experiences towards that specialization.
+                  </li></h3>
+                 </ul>
+                 <h2 ><strong>Career Paths:</strong></h2>
+                 <ul>
+                  <h3><li>Research potential career paths such as urban planner, GIS specialist, environmental consultant, cartographer, researcher, or educator. Understand the qualifications and skills required for each path and plan your academic and professional development accordingly.
+                  </li></h3>
+                 </ul>
+                 <h2 ><strong>Soft Skills:</strong></h2>
+                 <ul>
+                  <h3><li>Develop essential soft skills such as communication, critical thinking, problem-solving, and project management. These skills are valuable in any professional setting and will complement your technical and academic expertise.
+                  </li></h3>
+                  <h2 ><strong>Graduate Studies:</strong></h2>
+                  <ul>
+                    <h3><li>Consider pursuing graduate studies (master’s or Ph.D.) if your career goals involve advanced research, academia, or specialized professional roles. Graduate programs offer opportunities for deeper specialization and advanced research.
+                   </li></h3>
+                 </div>
+                 <div class="fir">
+                    <h1><strong> Adaptability and Lifelong Learning:</strong></h1>
+                    <h2 ><strong>Stay Updated:</strong></h2>
+                     <ul>
+                      <h3><li>Geography is a dynamic field influenced by technological advancements and global changes. Stay updated on new tools, techniques, and research by reading academic journals, participating in webinars, and engaging with the geography community.
+                      </li></h3>
+                     </ul>
+                     <h2 ><strong>Adaptability:</strong></h2>
+                     <ul>
+                      <h3><li> Be open to new opportunities and challenges. The field of geography can lead to diverse career paths, and being adaptable will allow you to navigate changes and seize new opportunities effectively.
+                      </li></h3>
+                     </ul>
+                     <h2 ><strong>Lifelong Learning:</strong></h2>
+                     <ul>
+                      <h3><li>Embrace lifelong learning by continuously seeking new knowledge and skills. This could involve taking additional courses, earning certifications, or engaging in self-directed learning to stay relevant and competitive in the field.
+                      </li></h3>
+                      
+                     </div>
+                     <div class="button">
+                      <a href="#top">Go to top</a>
+                      <div id="bottom"></div>
+                </div>
+</body>
+</html>
+ 

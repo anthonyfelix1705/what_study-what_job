@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What study what job</title>
+    {% load static%}
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    
+</head>
+<style>
+  .body{
+    font-family: "Trirong", serif;
+  }
+    .one{
+        
+        top: 0px;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        background-color: darkslategray;
+        color: white;
+        position: fixed;
+        width: 1360px;
+        table-layout: fixed;
+    }
+
+    .f {
+      margin-left: 1240px;
+    }
+
+    .f{
+        display: block;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+        font-size: large;
+}
+
+.one a:hover {
+  
+  color: white;
+  
+}
+.t{
+  margin-left: 10px;
+}
+.second{
+  height: 100%;
+  width: 270px;
+  position: fixed;
+  z-index: 1;
+  top: 60px;
+  padding-top: 70px;
+  left: 0;
+  background-color: gainsboro;
+  overflow-x: hidden
+
+}
+body{
+  font-family: "Lato", sans-serif;
+}
+.second a{
+  padding: 20px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+  table-layout: fixed;
+   display: inline-flex;
+
+}
+.second button{
+ 
+ border-bottom-right-radius: 20px;
+}
+.second a:hover{
+  color:grey;
+}
+.study{
+  text-align: right;
+}
+.study{
+  margin: left;/* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+.center{
+  margin-left: 300px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  margin-top: 120px;
+  letter-spacing: 7px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.head{
+  margin-left: 280px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-top: 55px;
+  font-size: large;
+  background-color: beige;
+ 
+}
+
+
+#flow a {
+  position: absolute;
+  margin-left:260px;
+  left: -117px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 160px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  position: fixed;
+ 
+}
+#flow a:hover {
+  left: 0;
+}
+#physics{
+top: 200px;
+background-color:  darkslategray;
+}
+#chemistry{
+top: 280px;
+background-color:  darkslategray;
+
+}
+#Biology{
+top: 360px;
+background-color: darkslategray;
+
+}
+#Mathematics{
+top: 440px;
+background-color: darkslategray;
+
+}
+#Computer{
+top: 520px;
+background-color: darkslategray;
+
+}
+.h{
+  margin-top: 70px;
+  margin-left: 330px;
+
+  
+}
+.content{
+  line-height: 35px;
+  
+}
+.button{
+  width: 150px;
+  background-color: darkslategray ;
+  color:white;
+  padding: 0px;
+  text-align: center;
+  margin-left: 800px;
+  font-size: 20px;
+  border-radius: 8px;
+  height: auto;
+  border: none;
+  display: inline-block;
+}
+.top{
+  margin-left: 0px;
+  margin-top: 5px;
+}
+</style>
+</head>
+<body >
+  
+  <!--top style-->
+    <ul class="one">
+      
+        <li class="f"><a href="home">Home</a></li>
+     </ul>
+      <!-- side-->
+      <ul class="second">
+        <a href="Science">Science </a><hr>
+        <a href="Commerce">Commerce </a><hr>
+        <a href="arts">Humanities/Arts </a><hr>
+        <a href="Professional">Professional </a>
+      </ul>
+<div class="top">
+        <h1 id="top"></h1>
+        <h1><a href ="#bottom"></a></h1> 
+</div>
+      <div class="center">
+         <h1>DEPARTMENT OF BIOLOGY</h1><hr>
+      </div>
+     <div id="flow">
+      <a href="physics" id="physics">physics</a>
+      <a href="chemistry" id="chemistry">chemistry</a>
+      <a href="Biology" id="Biology">Biology</a>
+      <a href="Mathematics" id="Mathematics">Mathematics</a>
+      <a href="Computer" id="Computer">Computer</a>
+     </div>
+     <div class="h">
+       <h3 class="content">Biology departments in schools typically cover a wide range of topics related to living organisms, their functions, structures, and interactions with their environment. Here are some common areas of study within a biology department:</h3>    
+      <h2><strong> 1.Biology:</strong></h2>
+       <ul>
+        <li><h3>This field explores the structure and function of cells, the basic units of life. Topics may include cell organelles, cell division, and cell signaling.</h3></li>
+      </ul>
+      <h2><strong>2.Genetics:</strong></h2>
+       <ul>
+        <li><h3>Genetics focuses on the study of genes, heredity, and genetic variation in organisms. Students may learn about DNA, RNA, genetic inheritance patterns, and genetic engineering techniques.</h3></li>
+      </ul>
+      <h2><strong>3.Ecology:</strong></h2>
+       <ul>
+        <li><h3>Ecology examines the interactions between organisms and their environment. Students learn about ecosystems, populations, communities, and how organisms adapt to their surroundings.</h3></li>
+      </ul>
+      <h2><strong>4.Evolutionary Biology:</strong></h2>
+       <ul>
+        <li><h3>Evolutionary biology investigates the processes that drive the diversity of life on Earth over time. Students may study natural selection, adaptation, speciation, and the history of life.</h3></li>
+      </ul>
+      <h2><strong>5.Anatomy and Physiology:</strong></h2>
+       <ul>
+        <li><h3>This area explores the structure and function of organisms at various levels of organization, from tissues and organs to organ systems. Students learn about the human body and other organisms' anatomy and how they function.</h3></li>
+      </ul>
+      <h2><strong>6.Microbiology:</strong></h2>
+       <ul>
+        <li><h3>Microbiology is the study of microorganisms, including bacteria, viruses, fungi, and protists. Students may learn about microbial structure, function, diversity, and their roles in health and disease.</h3></li>
+      </ul>
+      <h2><strong>7.Botany:</strong></h2>
+       <ul>
+        <li><h3>Botany focuses on the study of plants, including their structure, growth, reproduction, and classification. Students may learn about plant physiology, ecology, and diversity.</h3></li>
+      </ul>
+      <h2><strong>8.Biochemistry:</strong></h2>
+       <ul>
+        <li><h3>Biochemistry examines the chemical processes and molecules that occur within living organisms. Topics may include metabolism, enzymes, cellular respiration, and photosynthesis.</h3></li>
+      </ul>
+      <h2><strong>9.Zoology:</strong></h2>
+       <ul>
+        <li><h3>Zoology is the study of animals, including their behavior, physiology, evolution, and ecology. Students may explore the diversity of animal life and how different species interact with their environments.</h3></li>
+      </ul>
+      <h2><strong>10.Biotechnology: </strong></h2>
+       <ul>
+        <li><h3>Biotechnology involves the use of biological systems and organisms to develop products and technologies for various purposes, such as medicine, agriculture, and industry. Students may learn about genetic engineering, bioprocessing, and biomedicine.</h3></li>
+      </ul>
+      <div class="button">
+      <a href="#top">Go to top</a>
+<div id="bottom"></div>
+    </div>
+</body>
+</html>
+ 

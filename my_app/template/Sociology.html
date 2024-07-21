@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What study what job</title>
+    {% load static%}
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    
+</head>
+<style>
+  .body{
+    font-family: "Trirong", serif;
+  }
+    .one{
+        
+        top: 0px;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        background-color: darkslategray;
+        color: white;
+        position: fixed;
+        width: 1360px;
+        table-layout: fixed;
+    }
+
+    .f {
+      margin-left: 1240px;
+    }
+
+    .f{
+      
+        display: block;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+        font-size: large;
+}
+
+.one a:hover {
+  
+  color: white;
+  
+}
+.t{
+  margin-left: 10px;
+}
+.second{
+  height: 100%;
+  width: 270px;
+  position: fixed;
+  z-index: 1;
+  top: 60px;
+  padding-top: 70px;
+  left: 0;
+  background-color: gainsboro;
+  overflow-x: hidden
+
+}
+body{
+  font-family: "Lato", sans-serif;
+}
+.second a{
+  padding: 20px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+  table-layout: fixed;
+   display: inline-flex;
+
+}
+.second button{
+ 
+ border-bottom-right-radius: 20px;
+}
+.second a:hover{
+  color:grey;
+}
+.study{
+  text-align: right;
+}
+.study{
+  margin: left;/* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+.center{
+  margin-left: 300px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  margin-top: 120px;
+  letter-spacing: 7px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.head{
+  margin-left: 280px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-top: 55px;
+  font-size: large;
+  background-color: beige;
+ 
+}
+#flow a {
+  position: absolute;
+  margin-left:260px;
+  left: -117px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 160px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  position: fixed;
+ 
+}
+#flow a:hover {
+  left: 0;
+}
+#Geography{
+top: 177px;
+background-color:  darkslategray;
+}
+#Language{
+top: 240px;
+background-color: darkslategray;
+}
+#History{
+top: 304px;
+background-color:  darkslategray}
+#Psychology{
+top: 367px;
+background-color:  darkslategray;
+
+}
+#Sociology{
+top: 430px;
+background-color:  darkslategray;
+
+}
+#Literature{
+top: 494px;
+background-color:  darkslategray;
+
+}
+#Political{
+top: 558px;
+background-color: darkslategray;
+}
+
+.h{
+  margin-top: 40px;
+  margin-left: 305px;
+  
+}
+.fir{
+  
+  margin-left: 330px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-top: 35px;
+  font-size: large;
+  text-align: initial;
+  line-height: 35px;
+}
+.gray{
+  color: #201e1e;
+}
+.fi{
+  margin-left: 330px;
+  margin-top: 75px;
+}
+.firs{
+   margin-left: 330px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  line-height: 100px;
+  margin-top: 35px;
+  font-size: large;
+  text-align: initial; 
+  
+  }  
+  .button{
+  width: 150px;
+  background-color: darkslategray ;
+  color:white;
+  padding: 0px;
+  text-align: center;
+  margin-left: 1100px;
+  font-size: 20px;
+  border-radius: 8px;
+  height: auto;
+  border: none;
+  display: inline-block;
+
+}
+.top{
+  margin-left: 0px;
+  margin-top: 5px;
+}
+</style>
+</head>
+<body >
+  
+  <!--top style-->
+    <ul class="one">
+      
+        <li class="f"><a href='home'>Home</a></li>
+     </ul>
+      <!-- side-->
+      <ul class="second">
+        <a href="Science">Science </a><hr>
+        <a href="Commerce">Commerce </a><hr>
+        <a href="arts">Humanities/Arts </a><hr>
+        <a href="Professional">Professional </a>
+      </ul>
+      <div id="flow">
+        <a href="Geography" id="Geography">Geography</a>
+        <a href="History" id="History">History</a>
+        <a href="Language" id="Language">Language</a>
+        <a href="Psychology" id="Psychology">Psychology</a>
+        <a href="Sociology" id="Sociology">Sociology</a>
+        <a href="Literature" id="Literature">Literature</a>
+        <a href="Political " id="Political">Political</a>
+       </div>
+<!--star the page-->
+<div class="top">
+  <h1 id="top"></h1>
+  <h1><a href ="#bottom"></a></h1> 
+</div>
+<div class="center">
+    <h1>DEPARTMENT OF SOCIOLOGY</h1><hr>
+</div>
+<div class="fi">
+    <h3><P><dd class="p">
+        Pursuing a degree in sociology can lead to a wide range of career opportunities and paths. Here is a detailed guide on how students can shape their future with a B.A. in Sociology:
+    </dd></P></h3>
+</div>
+<div class="fir">
+     <h1 class="gray"><strong> 1.Academic Pathway and Curriculum:</strong></h1>
+     <h2 ><strong>Core Subjects:</strong></h2>
+       <ul>
+         <h3><li>Typically include introduction to sociology, social theory, social research methods, social stratification, gender studies, race and ethnicity, and urban sociology.</li></h3>
+       </ul>
+     <h2 ><strong>Electives: </strong></h2>
+        <ul>
+          <h3><li>May offer courses in areas like criminology, family studies, health sociology, environmental sociology, and globalization.</li></h3>
+        </ul>
+     <h2 ><strong>Skill Development:</strong></h2>
+         <ul>
+          <h3><li>Emphasis on critical thinking, research skills, understanding of social structures and processes, and proficiency in data analysis and qualitative research methods.</li></h3>
+         </ul>
+     <h1 class="gray"><strong>2.Career Opportunities:</strong></h1>
+     <h2 ><strong>Social Services and Community Work</strong></h2>
+     <h2 ><strong>Social Worker:</strong></h2>
+         <ul>
+          <h3><li>Providing support and services to individuals, families, and communities. Additional qualifications in social work (e.g., MSW) may be required.</li></h3>
+         </ul>
+     <h2 ><strong>Community Development Worker:</strong></h2>
+        <ul>
+          <h3><li>Working with communities to identify needs, implement projects, and improve quality of life.</li></h3>     </ul>
+     <h2 ><strong>Research and Academia</strong></h2>
+     <h2 ><strong>Researcher:</strong></h2>
+        <ul>
+          <h3><li>Conducting sociological research in academic institutions, government agencies, think tanks, or private research firms.
+        </li></h3></ul>
+     <h2><strong> Professor/Lecturer:</strong></h2>
+        <ul>
+          <h3><li>Teaching sociology at colleges and universities, typically requiring a master’s degree (M.A. or M.Sc. in Sociology) and a Ph.D.</li>
+        </ul></h3>
+     <h2 ><strong>Government and Public Policy</strong></h2>
+     <h2 ><strong>Policy Analyst: </strong></h2>    
+        <ul>
+          <h3><li>Researching and developing policies to address social issues and improve public welfare.</li>
+        </ul></h3>
+     <h2><strong >Civil Services: </strong></h2>
+        <ul>
+          <h3><li>Appearing for competitive exams like UPSC, where a sociology background can be advantageous.</li>
+        </ul></h3>
+     <h2><strong>Non-Governmental Organizations (NGOs)</strong></h2>
+     <h2><strong>Program Coordinator:</strong></h2>
+        <ul>
+          <h3><li> Managing projects and programs related to social development, human rights, and community welfare.</li>
+        </ul></h3>
+     <h2><strong>Advocacy and Outreach Specialist: </strong></h2>
+        <ul>
+          <h3><li>Working on advocacy campaigns and outreach programs to raise awareness on social issues.</li>
+        </ul> </h3>  
+     <h2><strong>Human Resources and Corporate Sector</strong></h2>
+     <h2><strong>Human Resources Specialist:</strong></h2>
+       <ul>
+        <h3><li>Applying sociological principles to recruitment, training, employee development, and organizational behavior.</li>
+       </ul> </h3>  
+       <h2><strong>Corporate Social Responsibility (CSR) Manager:</strong></h2>
+       <ul>
+        <h3><li>Developing and managing CSR programs and initiatives within corporations.
+        </li>
+       </ul>  
+       <h2><strong>Health and Welfare Services</strong></h2>
+       <h2><strong>Health Educator:</strong></h2>
+       <ul>
+        <h3><li>Promoting healthy lifestyles and behaviors in communities, often working with public health organizations.
+        </li>
+       </ul> </h3>  
+       <h2><strong>Public Health Specialist:</strong></h2>
+       <ul>
+        <h3><li>determinants of health and working on community health projects.
+        </li></h3>
+       </ul> 
+       <h2><strong>Criminal Justice and Criminology</strong></h2>
+       <h2><strong>Criminologist:</strong></h2>
+       <ul>
+        <h3><li>Studying crime and criminal behavior, working with law enforcement agencies, and contributing to crime prevention strategies.
+        </li></h3>
+       </ul>   
+       <h2><strong>Corrections Officer:</strong></h2>
+       <ul>
+        <h3><li>Working within the criminal justice system to rehabilitate offenders.
+        </li></h3>
+       </ul>   
+       <h2><strong>Media and Communications</strong></h2>
+       <h2><strong>Journalist/Writer:</strong></h2>
+       <ul>
+        <h3><li>Reporting on social issues, conducting investigative journalism, or writing for newspapers, magazines, and digital media.
+        </li></h3>
+       </ul>   
+       <h2><strong>Public Relations Specialist:</strong></h2>
+       <ul>
+        <h3><li>Managing communication and public image for organizations.
+        </li></h3>
+       </ul>   
+    
+      <h1 class="gray"><strong> 3. Further Education and Specialization</strong></h1>
+            <ul>
+              <h3><strong>M.A. or M.Sc. in Sociology: </strong> Specializing in a specific area of sociology.</h3>
+              <h3><strong>Ph.D. in Sociology</strong> Pursuing advanced research and academic career.</h3>
+              <h3><strong>Diploma/Certificate Courses: </strong>Additional qualifications in areas like social work, public policy, human rights, or data analysis.</h3>
+            </ul>
+   
+      <h1 class="gray"><strong> 4. Skill Enhancement</strong></h1>
+          <ul>
+             <h3><strong>Research Skills:</strong>Developing proficiency in qualitative and quantitative research methodologies, statistical analysis, and using software like SPSS or NVivo.</h3>
+             <h3><strong>Technical Skills:</strong> Learning to use sociological databases and digital tools for research and data analysis.</h3>
+             <h3><strong>Soft Skills: </strong>Enhancing communication, empathy, and problem-solving skills essential for effective practice.
+             </h3>
+        </ul>
+   
+      <h1 class="gray"><strong> 5. Networking and Professional Development</strong></h1>
+          <ul>
+             <h3><strong>Professional Associations: </strong>Joining Tamil literary societies, book clubs, and cultural organizations.</h3>
+             <h3><strong>Conferences and Workshops:</strong> Attending and presenting at academic and literary conferences.</h3>
+             <h3><strong>Mentorship:</strong> Seeking guidance from experienced professionals in the field.
+             </h3>
+        </ul>
+   
+      <h1 class="gray"><strong>6. Internships and Practical Experience</strong></h1>
+        <ul>
+          <h3><strong>Internships:</strong>Participating in and organizing Tamil cultural festivals, literary meets, and theatrical performances.</h3>
+          <h3><strong>Volunteer Work:</strong>Volunteering with community organizations, social service agencies, or advocacy groups.</h3>
+      </ul>
+   
+      <h1 class="gray"><strong>7. Digital and Online Platforms</strong></h1>
+        <ul>
+          <h3><strong>Blogging and Vlogging: </strong>Creating content on social issues and sociological topics for blogs, YouTube, or social media.</h3>
+          <h3><strong>Online Tutoring: </strong>Offering sociology tutoring services through online platforms.</h3>
+        </ul>
+
+    <h1 class="gray"><strong>8. Job Search and Applications</strong></h1>
+        <ul>
+          <h3><strong>Resume and Portfolio:</strong>Building a strong resume highlighting relevant coursework, research experience, internships, and certifications.</h3>
+          <h3><strong>Job Portals and Networking:</strong>Utilizing job portals, professional networks, and social media to find job opportunities.</h3>
+       </ul>
+      </div>
+       <div class="button">
+        <a href="#top">Go to top</a>
+        <div id="bottom"></div>
+  </div>
+</body>
+</html>
+ 

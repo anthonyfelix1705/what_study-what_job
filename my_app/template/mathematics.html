@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What study what job</title>
+    {% load static%}
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    
+</head>
+<style>
+  .body{
+    font-family: "Trirong", serif;
+  }
+    .one{
+        
+        top: 0px;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        background-color: darkslategray;
+        color: white;
+        position: fixed;
+        width: 1360px;
+        table-layout: fixed;
+    }
+
+    .f {
+      margin-left: 1240px;
+    }
+
+    .f{
+        display: block;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+        font-size: large;
+}
+
+.one a:hover {
+  
+  color: white;
+  
+}
+.t{
+  margin-left: 10px;
+}
+.second{
+  height: 100%;
+  width: 270px;
+  position: fixed;
+  z-index: 1;
+  top: 60px;
+  padding-top: 70px;
+  left: 0;
+  background-color: gainsboro;
+  overflow-x: hidden
+
+}
+body{
+  font-family: "Lato", sans-serif;
+}
+.second a{
+  padding: 20px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+  table-layout: fixed;
+   display: inline-flex;
+
+}
+.second button{
+ 
+ border-bottom-right-radius: 20px;
+}
+.second a:hover{
+  color:grey;
+}
+.study{
+  text-align: right;
+}
+.study{
+  margin: left;/* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+.center{
+  margin-left: 300px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  margin-top: 120px;
+  letter-spacing: 7px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.head{
+  margin-left: 280px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-top: 55px;
+  font-size: large;
+  background-color: beige;
+ 
+}
+
+
+#flow a {
+  position: absolute;
+  margin-left:260px;
+  left: -117px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 160px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  position: fixed;
+ 
+}
+#flow a:hover {
+  left: 0;
+}
+#physics{
+top: 200px;
+background-color:  darkslategray;
+}
+#chemistry{
+top: 280px;
+background-color:  darkslategray;
+
+}
+#Biology{
+top: 360px;
+background-color: darkslategray;
+
+}
+#Mathematics{
+top: 440px;
+background-color: darkslategray;
+
+}
+#Computer{
+top: 520px;
+background-color:  darkslategray;
+
+}
+.h{
+  margin-top: 40px;
+  margin-left: 305px;
+  
+}
+.fir{
+  
+  margin-left: 330px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-top: 35px;
+  font-size: large;
+  text-align: initial;
+  line-height: 35px;
+}
+.fi{
+  margin-left: 330px;
+  margin-top: 75px;
+}
+.button{
+  width: 150px;
+  background-color: darkslategray ;
+  color:white;
+  padding: 0px;
+  text-align: center;
+  margin-left: 800px;
+  font-size: 20px;
+  border-radius: 8px;
+  height: auto;
+  border: none;
+  display: inline-block;
+}
+.top{
+  margin-left: 0px;
+  margin-top: 5px;
+}
+</style>
+</head>
+<body >
+  
+  <!--top style-->
+    <ul class="one">
+      
+        <li class="f"><a href="home">Home</a></li>
+     </ul>
+      <!-- side-->
+      <ul class="second">
+        <a href="Science">Science </a><hr>
+        <a href="Commerce">Commerce </a><hr>
+        <a href="arts">Humanities/Arts </a><hr>
+        <a href="Professional">Professional </a>
+      </ul>
+      <div class="top">
+        <h1 id="top"></h1>
+        <h1><a href ="#bottom"></a></h1> 
+</div>
+      <div class="center">
+         <h1>DEPARTMENT OF MATHEMATIC</h1><hr>
+      </div>
+     <div id="flow">
+      <a href="physics" id="physics">physics</a>
+      <a href="chemistry" id="chemistry">chemistry</a>
+      <a href="Biology" id="Biology">Biology</a>
+      <a href="Mathematics" id="Mathematics">Mathematics</a>
+      <a href="Computer" id="Computer">Computer</a>
+     </div>
+     <div class="fi">
+      <h3><P><dd class="p">
+        The mathematics department in a school covers a diverse range of topics, from fundamental concepts to advanced theories.
+         Here's an overview of what students typically learn in a mathematics department:</dd></P></h3>
+    </div>
+    <div class="fir">
+    <h2 ><strong>Arithmetic: </strong></h2>
+     <ul>
+      <h3><li> This includes basic operations such as addition, subtraction, multiplication, and division, as well as properties of numbers, fractions, decimals, and percentages.</h3>
+      </li>
+     </ul>
+     <h2 ><strong>Algebra:</strong></h2>
+     <ul>
+      <h3><li> Algebra involves the study of mathematical symbols and the rules for manipulating these symbols. Topics may include solving equations, inequalities, polynomials, and systems of equations.</h3>
+      </li>
+     </ul>
+     <h2 ><strong>Geometry:</strong></h2>
+     <ul>
+      <h3><li>Geometry deals with the study of shapes, sizes, and properties of objects in space. Students learn about geometric shapes, angles, lines, planes, and theorems related to triangles, circles, and polygons.</h3>
+      </li>
+     </ul>
+     <h2 ><strong>Trigonometry:</strong></h2>
+     <ul>
+      <h3><li>Trigonometry focuses on the study of angles and the relationships between the sides and angles of triangles. Topics include trigonometric functions (sine, cosine, tangent), trigonometric identities, and solving trigonometric equations.</h3>
+      </li>
+     </ul>
+     <h2 ><strong>Calculus:</strong></h2>
+     <ul>
+      <h3><li>Calculus is the study of change and motion. Students learn about derivatives, integrals, limits, and their applications in analyzing functions, rates of change, and areas under curves.</h3>
+      </li>
+     </ul>
+     <h2 ><strong>Statistics and Probability:</strong></h2>
+     <ul >
+      <h3><li>Statistics involves the collection, analysis, interpretation, and presentation of data. Students learn about measures of central tendency, variability, probability distributions, hypothesis testing, and regression analysis.</h3>
+      </li>
+     </ul>
+     <h2 ><strong>Discrete Mathematics:</strong></h2>
+     <ul >
+      <h3><li>Discrete mathematics deals with countable and distinct objects, such as integers, graphs, and networks. Topics may include combinatorics, graph theory, logic, and algorithms.</h3>
+      </li>
+     </ul>
+     <h2 ><strong>Number Theory:</strong></h2>
+     <ul >
+      <h3><li>Number theory focuses on the properties of integers and their relationships. Topics may include prime numbers, divisibility, congruences, and Diophantine equations.</h3>
+      </li>
+     </ul>
+     <h2 ><strong>Linear Algebra:</strong></h2>
+     <ul >
+      <h3><li>Linear algebra studies vector spaces, linear transformations, matrices, and systems of linear equations. It has applications in various fields, including physics, engineering, computer science, and economics.</h3>
+      </li>
+     </ul>
+     <h2><strong>Mathematical Logic:</strong> </h2>
+     <ul >
+      <h3><li>Mathematical logic explores formal systems of reasoning and mathematical proofs. Students learn about propositional logic, predicate logic, proof techniques, and logical reasoning.</h3>
+      </li>
+     </ul>
+     <h2><strong>Applied Mathematics:</strong> </h2>
+     <ul >
+      <h3><li>Applied mathematics applies mathematical methods to solve real-world problems in various fields, including physics, engineering, biology, economics, and computer science.</h3>
+      </li>
+     </ul>
+     <div class="button">
+      <a href="#top">Go to top</a>
+<div id="bottom"></div>
+    </div>
+</body>
+</html>
+ 
